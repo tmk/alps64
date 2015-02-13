@@ -1,0 +1,990 @@
+Cmp-Mod V01 Created by Cvpcb (2014-07-31 BZR 5040)-product   date = Mon 18 Aug 2014 13:01:52 JST
+
+BeginCmp
+TimeStamp = /53E21C15;
+Reference = C1;
+ValeurCmp = 4.7u;
+IdModule  = keyobard_parts:C_3216;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E21BA3;
+Reference = C2;
+ValeurCmp = 1u;
+IdModule  = keyobard_parts:C_1608;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E211DC;
+Reference = C3;
+ValeurCmp = 22p;
+IdModule  = keyobard_parts:C_1608;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E21160;
+Reference = C4;
+ValeurCmp = 22p;
+IdModule  = keyobard_parts:C_1608;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E2255C;
+Reference = C5;
+ValeurCmp = 0.1u;
+IdModule  = keyobard_parts:C_1608;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E21AD8;
+Reference = C6;
+ValeurCmp = 0.1u;
+IdModule  = keyobard_parts:C_1608;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A537;
+Reference = D1;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A5A7;
+Reference = D2;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A617;
+Reference = D3;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A687;
+Reference = D4;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A6F7;
+Reference = D5;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A767;
+Reference = D6;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A7D7;
+Reference = D7;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A847;
+Reference = D8;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A545;
+Reference = D9;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A5B5;
+Reference = D10;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A625;
+Reference = D11;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A695;
+Reference = D12;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A705;
+Reference = D13;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A775;
+Reference = D14;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A7E5;
+Reference = D15;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A855;
+Reference = D16;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A553;
+Reference = D17;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A5C3;
+Reference = D18;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A633;
+Reference = D19;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A6A3;
+Reference = D20;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A713;
+Reference = D21;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A783;
+Reference = D22;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A7F3;
+Reference = D23;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A863;
+Reference = D24;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A561;
+Reference = D25;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A5D1;
+Reference = D26;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A641;
+Reference = D27;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A6B1;
+Reference = D28;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A721;
+Reference = D29;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A791;
+Reference = D30;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A801;
+Reference = D31;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A871;
+Reference = D32;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A56F;
+Reference = D33;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A5DF;
+Reference = D34;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A64F;
+Reference = D35;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A6BF;
+Reference = D36;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A72F;
+Reference = D37;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A79F;
+Reference = D38;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A80F;
+Reference = D39;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A87F;
+Reference = D40;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A57D;
+Reference = D41;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A5ED;
+Reference = D42;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A65D;
+Reference = D43;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A6CD;
+Reference = D44;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A73D;
+Reference = D45;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A7AD;
+Reference = D46;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A81D;
+Reference = D47;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A88D;
+Reference = D48;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A58B;
+Reference = D49;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A5FB;
+Reference = D50;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A66B;
+Reference = D51;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A6DB;
+Reference = D52;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A74B;
+Reference = D53;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A7BB;
+Reference = D54;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A82B;
+Reference = D55;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A89B;
+Reference = D56;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A599;
+Reference = D57;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A609;
+Reference = D58;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A679;
+Reference = D59;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A6E9;
+Reference = D60;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A759;
+Reference = D61;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A7C9;
+Reference = D62;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A839;
+Reference = D63;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A8A9;
+Reference = D64;
+ValeurCmp = D;
+IdModule  = keyobard_parts:D_SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E22741;
+Reference = J1;
+ValeurCmp = USB_mini_micro_B;
+IdModule  = keyobard_parts:USB_miniB_hirose_new;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A53E;
+Reference = K1;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A5AE;
+Reference = K2;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A61E;
+Reference = K3;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A68E;
+Reference = K4;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A6FE;
+Reference = K5;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A76E;
+Reference = K6;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A7DE;
+Reference = K7;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A84E;
+Reference = K8;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A54C;
+Reference = K9;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A5BC;
+Reference = K10;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A62C;
+Reference = K11;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A69C;
+Reference = K12;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A70C;
+Reference = K13;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A77C;
+Reference = K14;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A7EC;
+Reference = K15;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A85C;
+Reference = K16;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A55A;
+Reference = K17;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A5CA;
+Reference = K18;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A63A;
+Reference = K19;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A6AA;
+Reference = K20;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A71A;
+Reference = K21;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A78A;
+Reference = K22;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A7FA;
+Reference = K23;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A86A;
+Reference = K24;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A568;
+Reference = K25;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A5D8;
+Reference = K26;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A648;
+Reference = K27;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A6B8;
+Reference = K28;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A728;
+Reference = K29;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A798;
+Reference = K30;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A808;
+Reference = K31;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A878;
+Reference = K32;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A576;
+Reference = K33;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A5E6;
+Reference = K34;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A656;
+Reference = K35;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A6C6;
+Reference = K36;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A736;
+Reference = K37;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A7A6;
+Reference = K38;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A816;
+Reference = K39;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A886;
+Reference = K40;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A584;
+Reference = K41;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A5F4;
+Reference = K42;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A664;
+Reference = K43;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A6D4;
+Reference = K44;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A744;
+Reference = K45;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A7B4;
+Reference = K46;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A824;
+Reference = K47;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A894;
+Reference = K48;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A592;
+Reference = K49;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A602;
+Reference = K50;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A672;
+Reference = K51;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A6E2;
+Reference = K52;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A752;
+Reference = K53;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A7C2;
+Reference = K54;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A832;
+Reference = K55;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A8A2;
+Reference = K56;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A5A0;
+Reference = K57;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A610;
+Reference = K58;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A680;
+Reference = K59;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A6F0;
+Reference = K60;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A760;
+Reference = K61;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A7D0;
+Reference = K62;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A840;
+Reference = K63;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/53E4A8B0;
+Reference = K64;
+ValeurCmp = KEYSW;
+IdModule  = keyobard_parts:Cherry_MX1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E21CF0;
+Reference = R1;
+ValeurCmp = 22;
+IdModule  = keyobard_parts:R_1608;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E21C6C;
+Reference = R2;
+ValeurCmp = 22;
+IdModule  = keyobard_parts:R_1608;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E2E032;
+Reference = R3;
+ValeurCmp = 10K;
+IdModule  = keyobard_parts:R_1608;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E31B59;
+Reference = SW100;
+ValeurCmp = SW_PUSH;
+IdModule  = keyobard_parts:SW_ALPS_SKRP;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E1BC7B;
+Reference = U1;
+ValeurCmp = ATMEGA32U2;
+IdModule  = keyobard_parts:QFP32;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E20C9D;
+Reference = X1;
+ValeurCmp = CRYSTAL;
+IdModule  = keyobard_parts:FA-238;
+EndCmp
+
+EndListe
