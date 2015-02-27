@@ -1,45 +1,45 @@
-Cmp-Mod V01 Created by Cvpcb 0.201501310101+5397~21~ubuntu14.10.1-product   date = 2015年02月26日 15時47分34秒
+Cmp-Mod V01 Created by Cvpcb 0.201501310101+5397~21~ubuntu14.10.1-product   date = 2015年02月27日 16時12分34秒
 
 BeginCmp
 TimeStamp = /53E21C15;
 Reference = C1;
 ValeurCmp = 4.7u;
-IdModule  = keyobard_parts:C_3216;
+IdModule  = keyboard_parts:C_3216;
 EndCmp
 
 BeginCmp
 TimeStamp = /53E21BA3;
 Reference = C2;
 ValeurCmp = 1u;
-IdModule  = keyobard_parts:C_1608;
+IdModule  = keyboard_parts:C_1608;
 EndCmp
 
 BeginCmp
 TimeStamp = /53E211DC;
 Reference = C3;
 ValeurCmp = 22p;
-IdModule  = keyobard_parts:C_1608;
+IdModule  = keyboard_parts:C_1608;
 EndCmp
 
 BeginCmp
 TimeStamp = /53E21160;
 Reference = C4;
 ValeurCmp = 22p;
-IdModule  = keyobard_parts:C_1608;
+IdModule  = keyboard_parts:C_1608;
 EndCmp
 
 BeginCmp
 TimeStamp = /53E2255C;
 Reference = C5;
 ValeurCmp = 0.1u;
-IdModule  = keyobard_parts:C_1608;
+IdModule  = keyboard_parts:C_1608;
 EndCmp
 
 BeginCmp
 TimeStamp = /53E21AD8;
 Reference = C6;
 ValeurCmp = 0.1u;
-IdModule  = keyobard_parts:C_1608;
+IdModule  = keyboard_parts:C_1608;
 EndCmp
 
 BeginCmp
@@ -494,7 +494,7 @@ BeginCmp
 TimeStamp = /53E22741;
 Reference = J1;
 ValeurCmp = USB_mini_micro_B;
-IdModule  = keyobard_parts:USB_miniB_hirose_new;
+IdModule  = keyboard_parts:USB_miniB_hirose_th_reflow;
 EndCmp
 
 BeginCmp
@@ -949,42 +949,42 @@ BeginCmp
 TimeStamp = /53E21CF0;
 Reference = R1;
 ValeurCmp = 22;
-IdModule  = keyobard_parts:R_1608;
+IdModule  = keyboard_parts:R_1608;
 EndCmp
 
 BeginCmp
 TimeStamp = /53E21C6C;
 Reference = R2;
 ValeurCmp = 22;
-IdModule  = keyobard_parts:R_1608;
+IdModule  = keyboard_parts:R_1608;
 EndCmp
 
 BeginCmp
 TimeStamp = /53E2E032;
 Reference = R3;
 ValeurCmp = 10K;
-IdModule  = keyobard_parts:R_1608;
+IdModule  = keyboard_parts:R_1608;
 EndCmp
 
 BeginCmp
 TimeStamp = /53E31B59;
 Reference = SW100;
 ValeurCmp = SW_PUSH;
-IdModule  = keyobard_parts:SW_ALPS_SKRP;
+IdModule  = keyboard_parts:SW_ALPS_SKRP;
 EndCmp
 
 BeginCmp
 TimeStamp = /53E1BC7B;
 Reference = U1;
 ValeurCmp = ATMEGA32U2;
-IdModule  = keyobard_parts:QFP32;
+IdModule  = keyboard_parts:QFP32_reflow;
 EndCmp
 
 BeginCmp
 TimeStamp = /53E20C9D;
 Reference = X1;
 ValeurCmp = CRYSTAL;
-IdModule  = keyobard_parts:FA-238;
+IdModule  = keyboard_parts:FA-238;
 EndCmp
 
 EndListe
