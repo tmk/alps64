@@ -1,19 +1,31 @@
 ALPS 60% keyboard PCB
 =====================
-Primary goal is PCB supports 60% cut AEK(Apple Extended Keyboard) plate layout and fits into Poker and clone cases.
+Primary goal is PCB supports 60% cut AEK(Apple Extended Keyboard) plate layout and fits into Poker X cmpatible cases.
 
 LED:
 Won't support LED in first revision at least.
 LED footprint for ALPS Green? SMD LED? WS2812? Matias style underside LED?
 
+Trackpoint:
+Optional
+mount holes and IO pins
+
+PCB mount plate:
+1.6mm PCB will be OK for switch plate.
+
 Bluetooth:
+Optional
 RN-42 or other? nRF51822?
 Battery charger, USB support.
+
+TODO
+----
+Support for infinity bottom row: 1.5, 1, 1, 1.5
 
 
 Support layouts
 ---------------
-Hopefully supports AEK, KBP V60, Omnikey and Dell layouts.
+Hopefully supports AEK, KBP V60, Omnikey and Dell layouts. AEK ISO layout is not supported due to its anormaly. See below link.
 
 Top right:
     \, `        (HHKB style)
@@ -27,6 +39,10 @@ Bottom row:
     1.5, 1, 1.5,        space,  1.5, 1, 1.5              (101,103)
     1.25, 1.25, 1.25,   space,  1.25, 1.25, 1.25, 1.25   (V60, 104)
     1.5, 1.25, 1.5,     space,  1.5, 1.25, 1.5           (AEK)
+
+Space bar:
+    just middle/7.5u position                            (101, 103)
+    7.0u position                                        (V60, 104)
 
 ISO:
     ISO Enter key
