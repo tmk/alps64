@@ -1,4 +1,4 @@
-update=2015年03月03日 16時32分07秒
+update=2015年03月04日 09時06分58秒
 version=1
 last_client=kicad
 [cvpcb]
@@ -41,15 +41,17 @@ LibName28=opto
 LibName29=atmel
 LibName30=contrib
 LibName31=valves
+[general]
+version=1
 [pcbnew]
 version=1
-PageLayoutDescrFile=pagelayout_logo.kicad_wks
+PageLayoutDescrFile=/home/noname/.config/kicad/pagelayout_logo_without_ruler.kicad_wks
 LastNetListRead=
 UseCmpFile=1
-PadDrill=0
-PadDrillOvalY=0
-PadSizeH=0.8999999999999999
-PadSizeV=0.95
+PadDrill=1.5
+PadDrillOvalY=1.5
+PadSizeH=2.5
+PadSizeV=2.5
 PcbTextSizeV=1.5
 PcbTextSizeH=1.5
 PcbTextThickness=0.3
@@ -61,5 +63,3 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
-[general]
-version=1
