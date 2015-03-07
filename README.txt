@@ -2,25 +2,27 @@ ALPS 60% keyboard PCB
 =====================
 Primary goal is PCB supports 60% cut AEK(Apple Extended Keyboard) plate layout and fits into Poker X cmpatible cases.
 
-LED:
-Won't support LED in first revision at least.
+
+Ideas
+-----
+### LED ###
+Backlight won't support. Indicators may be needed for debug.
 LED footprint for ALPS Green? SMD LED? WS2812? Matias style underside LED?
 
-Trackpoint:
-Optional
-mount holes and IO pins
-
-PCB mount plate:
+### PCB mount plate: ###
 1.6mm PCB will be OK for switch plate.
 
-Bluetooth:
-Optional
-RN-42 or other? nRF51822?
-Battery charger, USB support.
+### TrackPoint ###
+ATMega32u2 has no spare pins for TrackPoint three buttons and signals.
+
 
 TODO
 ----
-Support for infinity bottom row: 1.5, 1, 1, 1.5
+ISP pads:
+Support for infinity bottom row: 1.5, 1, 1, 1.5:    DONE 03/05
+Thumb keys, split space bar:                        near future
+Trackpoint support: mount holes and IO pins:        Future revision
+Bluetooth support:                                  Future revision
 
 
 Support layouts
@@ -36,13 +38,14 @@ Right shift:
     RShift      (US)
 
 Bottom row:
-    1.5, 1, 1.5,        space,  1.5, 1, 1.5              (101,103)
-    1.25, 1.25, 1.25,   space,  1.25, 1.25, 1.25, 1.25   (V60, 104)
-    1.5, 1.25, 1.5,     space,  1.5, 1.25, 1.5           (AEK)
+    1.5, 1, 1.5,        space 7,    1.5, 1, 1.5             (101,103)
+    1.25, 1.25, 1.25,   space 6.25, 1.25, 1.25, 1.25, 1.25  (V60, 104)
+    1.5, 1.25, 1.5,     space 6.5,  1.5, 1.25, 1.5          (AEK)
+    1.5, 1, 1.5,        space 6,    1.5, 1, 1, 1.5          (Infinity)
 
 Space bar:
-    just middle/7.5u position                            (101, 103)
-    7.0u position                                        (V60, 104)
+    Just middle/7.5u position                               (101, 103)
+    7.0u position                                           (V60, 104)
 
 ISO:
     ISO Enter key
