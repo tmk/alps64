@@ -1,4 +1,4 @@
-update=2015年03月04日 09時06分58秒
+update=2015年03月06日 13時46分28秒
 version=1
 last_client=kicad
 [cvpcb]
@@ -48,10 +48,10 @@ version=1
 PageLayoutDescrFile=/home/noname/.config/kicad/pagelayout_logo_without_ruler.kicad_wks
 LastNetListRead=
 UseCmpFile=1
-PadDrill=1.5
-PadDrillOvalY=1.5
-PadSizeH=2.5
-PadSizeV=2.5
+PadDrill=0
+PadDrillOvalY=0
+PadSizeH=1.5
+PadSizeV=0.5499999999999999
 PcbTextSizeV=1.5
 PcbTextSizeH=1.5
 PcbTextThickness=0.3
