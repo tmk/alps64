@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "xKB64 keyboard PCB"
-Date "Aug 2014"
+Date "2015/03"
 Rev "A"
 Comp "TMK, Tokyo JAPAN"
 Comment1 ""
