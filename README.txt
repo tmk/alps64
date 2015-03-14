@@ -62,7 +62,9 @@ Apple Extended Keyboard & II:
 KBParadise V60 with Matias:
     https://geekhack.org/index.php?topic=57386.30
     http://deskthority.net/review-f45/kbp-v60-matias-click-and-matias-quiet-click-keyboards-t9502.html
-    http://www.hardcoreware.net/wordpress/wp-content/uploads/2014/06/kbp-v60-mini-review-pcb.jpg
+    PCB:    http://i.imgur.com/Mj51unC.jpg
+    PCB:    http://www.hardcoreware.net/wordpress/wp-content/uploads/2014/06/kbp-v60-mini-review-pcb.jpg
+    Case:   http://i.imgur.com/WiYtefc.jpg
 
 Northgate Omnikey layout:
     http://cdn.overclock.net/1/15/900x900px-LL-15fea91e_29fpe1c.jpeg
