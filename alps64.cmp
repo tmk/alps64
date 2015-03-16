@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201501310101+5397~21~ubuntu14.10.1-product   date = 2015年02月27日 16時12分34秒
+Cmp-Mod V01 Created by Cvpcb 0.201503040816+5472~22~ubuntu14.10.1-product   date = 2015年03月16日 11時49分14秒
 
 BeginCmp
 TimeStamp = /53E21C15;
@@ -505,6 +505,27 @@ IdModule  = keyboard_parts:ALPS_SKCM;
 EndCmp
 
 BeginCmp
+TimeStamp = /53E3503A/54F32B86;
+Reference = K00_1;
+ValeurCmp = KEYSW;
+IdModule  = keyboard_parts:ALPS_SKCM;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/54F32CAA;
+Reference = K00_2;
+ValeurCmp = KEYSW;
+IdModule  = keyboard_parts:ALPS_SKCM;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/54F84A55;
+Reference = K00_3;
+ValeurCmp = KEYSW;
+IdModule  = keyboard_parts:ALPS_SKCM;
+EndCmp
+
+BeginCmp
 TimeStamp = /53E3503A/53E4A5AE;
 Reference = K01;
 ValeurCmp = KEYSW;
@@ -556,6 +577,20 @@ EndCmp
 BeginCmp
 TimeStamp = /53E3503A/53E4A54C;
 Reference = K10;
+ValeurCmp = KEYSW;
+IdModule  = keyboard_parts:ALPS_SKCM;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/54F3161C;
+Reference = K10_1;
+ValeurCmp = KEYSW;
+IdModule  = keyboard_parts:ALPS_SKCM;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/54F31740;
+Reference = K10_2;
 ValeurCmp = KEYSW;
 IdModule  = keyboard_parts:ALPS_SKCM;
 EndCmp
@@ -617,8 +652,22 @@ IdModule  = keyboard_parts:ALPS_SKCM;
 EndCmp
 
 BeginCmp
+TimeStamp = /53E3503A/54F35069;
+Reference = K20_1;
+ValeurCmp = KEYSW;
+IdModule  = keyboard_parts:ALPS_SKCM;
+EndCmp
+
+BeginCmp
 TimeStamp = /53E3503A/53E4A5CA;
 Reference = K21;
+ValeurCmp = KEYSW;
+IdModule  = keyboard_parts:ALPS_SKCM;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/54F359DF;
+Reference = K21_1;
 ValeurCmp = KEYSW;
 IdModule  = keyboard_parts:ALPS_SKCM;
 EndCmp
@@ -638,8 +687,22 @@ IdModule  = keyboard_parts:ALPS_SKCM;
 EndCmp
 
 BeginCmp
+TimeStamp = /53E3503A/5506FE38;
+Reference = K23_1;
+ValeurCmp = KEYSW;
+IdModule  = keyboard_parts:ALPS_SKCM;
+EndCmp
+
+BeginCmp
 TimeStamp = /53E3503A/53E4A71A;
 Reference = K24;
+ValeurCmp = KEYSW;
+IdModule  = keyboard_parts:ALPS_SKCM;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/54F3DDCA;
+Reference = K24_1;
 ValeurCmp = KEYSW;
 IdModule  = keyboard_parts:ALPS_SKCM;
 EndCmp
@@ -666,8 +729,22 @@ IdModule  = keyboard_parts:ALPS_SKCM;
 EndCmp
 
 BeginCmp
+TimeStamp = /53E3503A/55075537;
+Reference = K27_1;
+ValeurCmp = KEYSW;
+IdModule  = keyboard_parts:ALPS_SKCM;
+EndCmp
+
+BeginCmp
 TimeStamp = /53E3503A/53E4A568;
 Reference = K30;
+ValeurCmp = KEYSW;
+IdModule  = keyboard_parts:ALPS_SKCM;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/54F2B167;
+Reference = K30_1;
 ValeurCmp = KEYSW;
 IdModule  = keyboard_parts:ALPS_SKCM;
 EndCmp
@@ -680,8 +757,22 @@ IdModule  = keyboard_parts:ALPS_SKCM;
 EndCmp
 
 BeginCmp
+TimeStamp = /53E3503A/54F2F0AF;
+Reference = K31_1;
+ValeurCmp = KEYSW;
+IdModule  = keyboard_parts:ALPS_SKCM;
+EndCmp
+
+BeginCmp
 TimeStamp = /53E3503A/53E4A648;
 Reference = K32;
+ValeurCmp = KEYSW;
+IdModule  = keyboard_parts:ALPS_SKCM;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/55062A99;
+Reference = K32_1;
 ValeurCmp = KEYSW;
 IdModule  = keyboard_parts:ALPS_SKCM;
 EndCmp
@@ -724,6 +815,20 @@ EndCmp
 BeginCmp
 TimeStamp = /53E3503A/53E4A576;
 Reference = K40;
+ValeurCmp = KEYSW;
+IdModule  = keyboard_parts:ALPS_SKCM;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/54F2CC7A;
+Reference = K40_1;
+ValeurCmp = KEYSW;
+IdModule  = keyboard_parts:ALPS_SKCM;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/54F2CE14;
+Reference = K40_2;
 ValeurCmp = KEYSW;
 IdModule  = keyboard_parts:ALPS_SKCM;
 EndCmp
@@ -785,6 +890,20 @@ IdModule  = keyboard_parts:ALPS_SKCM;
 EndCmp
 
 BeginCmp
+TimeStamp = /53E3503A/54F3ECD8;
+Reference = K50_1;
+ValeurCmp = KEYSW;
+IdModule  = keyboard_parts:ALPS_SKCM;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/54F3EE08;
+Reference = K50_2;
+ValeurCmp = KEYSW;
+IdModule  = keyboard_parts:ALPS_SKCM;
+EndCmp
+
+BeginCmp
 TimeStamp = /53E3503A/53E4A5F4;
 Reference = K51;
 ValeurCmp = KEYSW;
@@ -836,6 +955,13 @@ EndCmp
 BeginCmp
 TimeStamp = /53E3503A/53E4A592;
 Reference = K60;
+ValeurCmp = KEYSW;
+IdModule  = keyboard_parts:ALPS_SKCM;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/54F30397;
+Reference = K60_1;
 ValeurCmp = KEYSW;
 IdModule  = keyboard_parts:ALPS_SKCM;
 EndCmp
@@ -897,6 +1023,13 @@ IdModule  = keyboard_parts:ALPS_SKCM;
 EndCmp
 
 BeginCmp
+TimeStamp = /53E3503A/54F8219B;
+Reference = K70_1;
+ValeurCmp = KEYSW;
+IdModule  = keyboard_parts:ALPS_SKCM;
+EndCmp
+
+BeginCmp
 TimeStamp = /53E3503A/53E4A610;
 Reference = K71;
 ValeurCmp = KEYSW;
@@ -946,6 +1079,13 @@ IdModule  = keyboard_parts:ALPS_SKCM;
 EndCmp
 
 BeginCmp
+TimeStamp = /5506952C;
+Reference = LED1;
+ValeurCmp = LED;
+IdModule  = keyboard_parts:LED_2012_HSOL;
+EndCmp
+
+BeginCmp
 TimeStamp = /53E21CF0;
 Reference = R1;
 ValeurCmp = 22;
@@ -963,6 +1103,13 @@ BeginCmp
 TimeStamp = /53E2E032;
 Reference = R3;
 ValeurCmp = 10K;
+IdModule  = keyboard_parts:R_1608;
+EndCmp
+
+BeginCmp
+TimeStamp = /55069445;
+Reference = R4;
+ValeurCmp = 1K;
 IdModule  = keyboard_parts:R_1608;
 EndCmp
 

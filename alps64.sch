@@ -51,7 +51,7 @@ U 1 1 53E1BC7B
 P 5225 2050
 F 0 "U1" H 5225 1100 60  0000 C CNN
 F 1 "ATMEGA32U2" H 5225 3000 60  0000 C CNN
-F 2 "keyboard_parts:QFP32" H 5225 1750 60  0001 C CNN
+F 2 "keyboard_parts:QFP32_reflow" H 5225 1750 60  0001 C CNN
 F 3 "" H 5225 1750 60  0000 C CNN
 	1    5225 2050
 	1    0    0    -1  
@@ -130,14 +130,6 @@ Entry Wire Line
 	3525 2800 3625 2700
 Entry Wire Line
 	3525 2900 3625 2800
-Entry Wire Line
-	6975 2000 6875 1900
-Entry Wire Line
-	6975 2100 6875 2000
-Entry Wire Line
-	6975 2300 6875 2200
-Entry Wire Line
-	6975 2400 6875 2300
 Entry Wire Line
 	6975 2500 6875 2400
 Entry Wire Line
@@ -283,15 +275,7 @@ Wire Wire Line
 Wire Wire Line
 	6325 1800 9350 1800
 Wire Wire Line
-	6325 1900 6875 1900
-Wire Wire Line
-	6325 2000 6875 2000
-Wire Wire Line
 	6325 2100 7375 2100
-Wire Wire Line
-	6325 2200 6875 2200
-Wire Wire Line
-	6325 2300 6875 2300
 Wire Wire Line
 	6325 2400 6875 2400
 Wire Wire Line
@@ -425,7 +409,6 @@ $EndComp
 Wire Wire Line
 	4175 1700 3625 1700
 NoConn ~ 6325 1900
-NoConn ~ 6325 2000
 NoConn ~ 6325 2200
 NoConn ~ 6325 2300
 Wire Wire Line
@@ -523,7 +506,7 @@ U 1 1 53E22741
 P 10325 1550
 F 0 "J1" H 9925 1500 60  0000 C CNN
 F 1 "USB_mini_micro_B" H 10175 1800 60  0001 C CNN
-F 2 "keyboard_parts:USB_miniB_hirose_new" H 10275 1550 60  0001 C CNN
+F 2 "keyboard_parts:USB_miniB_hirose_th_reflow" H 10275 1550 60  0001 C CNN
 F 3 "" H 10275 1550 60  0000 C CNN
 	1    10325 1550
 	-1   0    0    -1  
@@ -596,4 +579,35 @@ Text Label 6350 1500 0    60   ~ 0
 D-R
 Text Label 6350 1600 0    60   ~ 0
 D+R
+$Comp
+L R R4
+U 1 1 55069445
+P 8675 2575
+F 0 "R4" V 8755 2575 50  0000 C CNN
+F 1 "1K" V 8675 2575 50  0000 C CNN
+F 2 "keyboard_parts:R_1608" H 8675 2575 60  0001 C CNN
+F 3 "" H 8675 2575 60  0000 C CNN
+	1    8675 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED LED1
+U 1 1 5506952C
+P 8375 2000
+F 0 "LED1" H 8375 2100 50  0000 C CNN
+F 1 "LED" H 8375 1900 50  0000 C CNN
+F 2 "keyboard_parts:LED_2012_HSOL" H 8375 2000 60  0001 C CNN
+F 3 "" H 8375 2000 60  0000 C CNN
+	1    8375 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8675 2825 8675 2850
+Connection ~ 8675 2850
+Wire Wire Line
+	8575 2000 8675 2000
+Wire Wire Line
+	8675 2000 8675 2325
+Wire Wire Line
+	8175 2000 6325 2000
 $EndSCHEMATC
