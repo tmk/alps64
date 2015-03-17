@@ -1,6 +1,11 @@
 ALPS 60% keyboard PCB
 =====================
-Primary goal is PCB supports 60% cut AEK(Apple Extended Keyboard) plate layout and fits into Poker X cmpatible cases.
+Primary goal is to support 60% cut AEK(Apple Extended Keyboard) layout and fits into Poker X cmpatible cases.
+
+
+Revisions
+---------
+Rev.A   2015/03
 
 
 Ideas
@@ -26,7 +31,7 @@ Trackpoint support: mount holes and IO pins:        Future revision
 Bluetooth support:                                  Future revision
 
 
-Support layouts
+Support Layouts
 ---------------
 Hopefully supports AEK, KBP V60, Omnikey and Dell layouts. AEK ISO layout is not supported due to its anormaly. See below link.
 
@@ -51,6 +56,12 @@ Space bar:
 ISO:
     ISO Enter key
     ISO LShift
+
+
+Support Cases
+-------------
+Poker X case and its compatibles.
+Also V60 case are supported hopefully with ballpark figure from pics.
 
 
 Pics and Resources
