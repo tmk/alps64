@@ -7,10 +7,11 @@ Ideas
 -----
 ### LED ###
 Backlight won't support. Indicators may be needed for debug.
-LED footprint for ALPS Green? SMD LED? WS2812? Matias style underside LED?
+LED footprint for ALPS Green?
 
 ### PCB mount plate: ###
 1.6mm PCB will be OK for switch plate.
+SMD LED? WS2812? Matias style underside LED?
 
 ### TrackPoint ###
 ATMega32u2 has no spare pins for TrackPoint three buttons and signals.
