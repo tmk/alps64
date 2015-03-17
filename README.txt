@@ -52,8 +52,8 @@ ISO:
     ISO LShift
 
 
-Keyboard layout pics
---------------------
+Pics and Resources
+------------------
 Apple Extended Keyboard & II:
     http://i.imgur.com/mB5pcJy.jpg
     AEK ISO is not standard, weirdly shfted to right and not supported.
@@ -78,3 +78,18 @@ Dell/SGI 101, 103, 104:
 Matias switch custom keyboard:
     https://geekhack.org/index.php?topic=49920.msg1083821#msg1083821
     https://geekhack.org/index.php?topic=46060.0
+
+Face U replica PCB
+    http://imgur.com/a/StdLF
+
+Nerd 60 PCB
+    https://geekhack.org/index.php?topic=63507.0
+    https://geekhack.org/index.php?topic=63507.0
+
+Infinity PCB
+    https://github.com/kiibohd/pcb
+    https://d3jqoivu6qpygv.cloudfront.net/img_site/articles/keyboard/massdrop-infinity-circuit.jpg
+
+Some case has extra standoffs
+    https://geekhack.org/index.php?topic=50580
+    https://geekhack.org/index.php?action=dlattach;topic=50580.0;attach=56770;image
