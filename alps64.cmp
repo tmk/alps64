@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201503040816+5472~22~ubuntu14.10.1-product   date = 2015年03月18日 05時14分13秒
+Cmp-Mod V01 Created by Cvpcb 0.201504261001+5623~23~ubuntu14.10.1-product   date = 2015年05月28日 10時34分14秒
 
 BeginCmp
 TimeStamp = /53E21C15;
@@ -694,6 +694,20 @@ IdModule  = keyboard_parts:ALPS_SKCM;
 EndCmp
 
 BeginCmp
+TimeStamp = /53E3503A/5566A5BD;
+Reference = K23_2;
+ValeurCmp = KEYSW;
+IdModule  = keyboard_parts:ALPS_SKCM;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3503A/5566A671;
+Reference = K23_3;
+ValeurCmp = KEYSW;
+IdModule  = keyboard_parts:ALPS_SKCM;
+EndCmp
+
+BeginCmp
 TimeStamp = /53E3503A/53E4A71A;
 Reference = K24;
 ValeurCmp = KEYSW;
@@ -1130,7 +1144,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53E1BC7B;
 Reference = U1;
-ValeurCmp = ATMEGA32U2;
+ValeurCmp = 32U2;
 IdModule  = keyboard_parts:QFP32_reflow;
 EndCmp
 

@@ -6,6 +6,7 @@ Primary goal is to support 60% cut AEK(Apple Extended Keyboard) layout and fits 
 Revisions
 ---------
 Rev.A   2015/03
+Rev.B   2015/05     ISO Enter fix
 
 
 Ideas
@@ -29,6 +30,39 @@ Support for infinity bottom row: 1.5, 1, 1, 1.5:    DONE 03/05
 Thumb keys, split space bar:                        near future
 Trackpoint support: mount holes and IO pins:        Future revision
 Bluetooth support:                                  Future revision
+
+USB connector should be shifted to outside by 0.3-0.5mm. 04/05
+
+ISO Enter Fix:
+    keycap from Matias doesn't work with Rev.A
+        https://geekhack.org/index.php?topic=69740.msg1760105#msg1760105
+    keycap from NEC Rakuraku keyboard doesn't work too
+        https://geekhack.org/index.php?topic=69740.msg1760805#msg1760805
+
+    Matias mount is located at middle of 1.25u while 1.5u on NEC keycap(Alps?).
+    ISO Enter key position of Rev.A is middle of 1u but such Enter key doesn't exist perhapse.
+
+       ------- -------
+      |       |       |
+      |   +   |   +   | 1u
+      |       |   |   |
+       ------- -------
+            |     |   |
+            |    +|   | 1.25u
+            |    ||   |
+            `---------'
+          |      ||   |
+          |     +||   | 1.5u
+          |     |||   |
+          `-----------'
+          .-----------, 1.5u
+          |     |||   |
+          |     |||   |
+           `    +++   |
+            |         |
+            |         |
+            `---------' 1.25u
+
 
 
 Support Layouts
@@ -86,7 +120,7 @@ KBParadise V60 with Matias:
     PCB:    http://www.hardcoreware.net/wordpress/wp-content/uploads/2014/06/kbp-v60-mini-review-pcb.jpg
     Case:   http://i.imgur.com/WiYtefc.jpg
     On their Facebook they said:
-    we can screw V60 plate on 4 holes of Poker2/Pure Pro case. Basicly , V60 can fit in Poker 2 case. But V60 has 6 dip switch , Poker 2 only has 4 dip switch. If the back side hole space not enough , the plate touch , not balance. 
+    we can screw V60 plate on 4 holes of Poker2/Pure Pro case. Basicly , V60 can fit in Poker 2 case. But V60 has 6 dip switch , Poker 2 only has 4 dip switch. If the back side hole space not enough , the plate touch , not balance.
 Poker 2 can not fit in V60 case. Because V60 case is a little smaller than Poker 2.
 
 Northgate Omnikey 101key:
@@ -126,3 +160,8 @@ Some case has extra standoffs
 
 Other Alps SKCM keyboards
     http://deskthority.net/wiki/Category:Keyboards_with_Alps_SKCL/SKCM_switches
+
+ISO Enter(Matias: 1.25u center/Alps: 1.5u center)
+    https://geekhack.org/index.php?topic=69740.msg1760105#msg1760105
+    https://geekhack.org/index.php?topic=69740.msg1760805#msg1760805
+    http://auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/ra118/users/4/5/3/6/kanami55bros-img591x600-1425099861y5vvwi23067.jpg
