@@ -11,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -387,7 +386,7 @@ L R R3
 U 1 1 53E2E032
 P 3250 2900
 F 0 "R3" V 3330 2900 50  0000 C CNN
-F 1 "10K" V 3250 2900 50  0000 C CNN
+F 1 "1K" V 3250 2900 50  0000 C CNN
 F 2 "keyboard_parts:R_1608" H 3250 2900 60  0001 C CNN
 F 3 "" H 3250 2900 60  0000 C CNN
 	1    3250 2900

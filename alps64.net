@@ -1,8 +1,8 @@
 (export (version D)
   (design
     (source /home/noname/Dropbox/KiCAD/alps64/alps64.sch)
-    (date "2015年05月28日 10時33分21秒")
-    (tool "Eeschema 0.201504261001+5623~23~ubuntu14.10.1-product")
+    (date "2015年10月09日 14時25分47秒")
+    (tool "Eeschema no-vcs-found-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "xKB64 keyboard PCB")
@@ -57,7 +57,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 53E2255C))
     (comp (ref R3)
-      (value 10K)
+      (value 1K)
       (footprint keyboard_parts:R_1608)
       (libsource (lib keyboard_parts) (part R))
       (sheetpath (names /) (tstamps /))
@@ -1015,59 +1015,10 @@
       (sheetpath (names /matrix/) (tstamps /53E3503A/))
       (tstamp 5566A671)))
   (libparts
-    (libpart (lib keyboard_parts) (part SW_PUSH)
-      (fields
-        (field (name Reference) SW)
-        (field (name Value) SW_PUSH))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive))))
-    (libpart (lib keyboard_parts) (part USB_mini_micro_B)
-      (fields
-        (field (name Reference) J)
-        (field (name Value) USB_mini_micro_B))
-      (pins
-        (pin (num 1) (name VUSB) (type power_out))
-        (pin (num 2) (name D-) (type BiDi))
-        (pin (num 3) (name D+) (type BiDi))
-        (pin (num 4) (name ID) (type input))
-        (pin (num 5) (name GND) (type power_out))
-        (pin (num 6) (name SHIELD) (type input))))
-    (libpart (lib keyboard_parts) (part D)
-      (fields
-        (field (name Reference) D)
-        (field (name Value) D))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
     (libpart (lib keyboard_parts) (part KEYSW)
       (fields
         (field (name Reference) K?)
         (field (name Value) KEYSW))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib keyboard_parts) (part R)
-      (footprints
-        (fp R?)
-        (fp SM0603)
-        (fp SM0805)
-        (fp R?-*)
-        (fp SM1206))
-      (fields
-        (field (name Reference) R)
-        (field (name Value) R))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib keyboard_parts) (part C)
-      (footprints
-        (fp SM*)
-        (fp C?)
-        (fp C1-1))
-      (fields
-        (field (name Reference) C)
-        (field (name Value) C))
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
@@ -1108,6 +1059,48 @@
         (pin (num 30) (name D-) (type BiDi))
         (pin (num 31) (name UVCC) (type power_in))
         (pin (num 32) (name AVCC) (type power_in))))
+    (libpart (lib keyboard_parts) (part C)
+      (footprints
+        (fp SM*)
+        (fp C?)
+        (fp C1-1))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib keyboard_parts) (part SW_PUSH)
+      (fields
+        (field (name Reference) SW)
+        (field (name Value) SW_PUSH))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))))
+    (libpart (lib keyboard_parts) (part R)
+      (footprints
+        (fp R?)
+        (fp SM0603)
+        (fp SM0805)
+        (fp R?-*)
+        (fp SM1206))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib keyboard_parts) (part USB_mini_micro_B)
+      (fields
+        (field (name Reference) J)
+        (field (name Value) USB_mini_micro_B))
+      (pins
+        (pin (num 1) (name VUSB) (type power_out))
+        (pin (num 2) (name D-) (type BiDi))
+        (pin (num 3) (name D+) (type BiDi))
+        (pin (num 4) (name ID) (type input))
+        (pin (num 5) (name GND) (type power_out))
+        (pin (num 6) (name SHIELD) (type input))))
     (libpart (lib device) (part LED)
       (footprints
         (fp LED-3MM)
@@ -1129,14 +1122,21 @@
         (field (name Value) CRYSTAL))
       (pins
         (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive)))))
+        (pin (num 2) (name 2) (type passive))))
+    (libpart (lib keyboard_parts) (part D)
+      (fields
+        (field (name Reference) D)
+        (field (name Value) D))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive)))))
   (libraries
-    (library (logical keyboard_parts)
-      (uri /home/noname/Dropbox/KiCAD/library/keyboard_parts.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
     (library (logical alps64-cache)
-      (uri /home/noname/Dropbox/KiCAD/alps64/alps64-cache.lib)))
+      (uri /home/noname/Dropbox/KiCAD/alps64/alps64-cache.lib))
+    (library (logical keyboard_parts)
+      (uri /home/noname/Dropbox/KiCAD/library/keyboard_parts.lib)))
   (nets
     (net (code 1) (name "Net-(U1-Pad26)")
       (node (ref U1) (pin 26)))

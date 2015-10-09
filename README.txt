@@ -7,6 +7,7 @@ Revisions
 ---------
 Rev.A   2015/03
 Rev.B   2015/05     ISO Enter fix
+Rev.C   2015/10     Silk fix: position of K70, K40 and value of resistor:10K -> 1K
 
 
 Ideas
@@ -25,6 +26,15 @@ ATMega32u2 has no spare pins for TrackPoint three buttons and signals.
 
 TODO
 ----
+Schematic:
+    reversed pins of LED: create new LED component
+Silk fix:                                           DONE 10/09
+    placement of K70, K40
+    value of resistor:10K -> 1K
+Capslock for Cherry Stepped 1.25u:
+    Someone may use Cherry keycaps with stem adapters.
+    never seen 1.25u stepped Capslock for Alps, normally 1.5u stepped or 1.75u(no stepped) for Alps
+
 ISP pads:
 Support for infinity bottom row: 1.5, 1, 1, 1.5:    DONE 03/05
 Thumb keys, split space bar:                        near future
