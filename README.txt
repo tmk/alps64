@@ -8,6 +8,7 @@ Revisions
 Rev.A   2015/03
 Rev.B   2015/05     ISO Enter fix
 Rev.C   2015/10     Silk fix: position of K70, K40 and value of resistor:10K -> 1K
+                    Capslock for Cherry Stepped 1.25u
 
 
 Ideas
@@ -31,7 +32,7 @@ Schematic:
 Silk fix:                                           DONE 10/09
     placement of K70, K40
     value of resistor:10K -> 1K
-Capslock for Cherry Stepped 1.25u:
+Capslock for Cherry Stepped 1.25u:                  DONE 10/09
     Someone may use Cherry keycaps with stem adapters.
     never seen 1.25u stepped Capslock for Alps, normally 1.5u stepped or 1.75u(no stepped) for Alps
 
