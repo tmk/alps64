@@ -27,6 +27,13 @@ ATMega32u2 has no spare pins for TrackPoint three buttons and signals.
 
 TODO
 ----
+Footprint library
+    Centroid: Diode and capacitor footprint
+    Pin1 is cathode or capacitor-positive. Pin1 is left for two pin devices like resitor and caps.
+    Pin1 is on upper left for many pin device like DIP, QFP, SOT...
+    http://pcbget.ru/Files/Standarts/IPC_7351.pdf
+    http://www.screamingcircuits.com/Home/HowItWorks
+    http://i.screamingcircuits.com/docs/understanding-the-centroid-file-r2-2.pdf
 Schematic:
     reversed pins of LED: create new LED component
 Silk fix:                                           DONE 10/09
@@ -115,6 +122,10 @@ Support Cases
 -------------
 Poker X case and its compatibles.
 Also V60 case are supported hopefully with ballpark figure from pics.
+
+TODO:
+Poker3/Pok3r case
+https://massdrop-s3.imgix.net/product-images/MD-6955_20150414182153_3159611692efb865.jpg
 
 
 Pics and Resources
