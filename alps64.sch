@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:alps64-rescue
 LIBS:keyboard_parts
 LIBS:power
 LIBS:device
@@ -36,8 +37,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "xKB64 keyboard PCB"
-Date "2015/03"
-Rev "A"
+Date "2016/04"
+Rev "D"
 Comp "TMK, Tokyo JAPAN"
 Comment1 ""
 Comment2 ""
@@ -155,7 +156,7 @@ L C C4
 U 1 1 53E21160
 P 2125 1900
 F 0 "C4" H 2175 2000 50  0000 L CNN
-F 1 "22p" H 2175 1800 50  0000 L CNN
+F 1 "10p" H 2175 1800 50  0000 L CNN
 F 2 "keyboard_parts:C_1608" H 2125 1900 60  0001 C CNN
 F 3 "" H 2125 1900 60  0000 C CNN
 	1    2125 1900
@@ -166,7 +167,7 @@ L C C3
 U 1 1 53E211DC
 P 2725 1900
 F 0 "C3" H 2775 2000 50  0000 L CNN
-F 1 "22p" H 2775 1800 50  0000 L CNN
+F 1 "10p" H 2775 1800 50  0000 L CNN
 F 2 "keyboard_parts:C_1608" H 2725 1900 60  0001 C CNN
 F 3 "" H 2725 1900 60  0000 C CNN
 	1    2725 1900
@@ -583,7 +584,7 @@ L R R4
 U 1 1 55069445
 P 8675 2575
 F 0 "R4" V 8755 2575 50  0000 C CNN
-F 1 "1K" V 8675 2575 50  0000 C CNN
+F 1 "1.5K" V 8675 2575 50  0000 C CNN
 F 2 "keyboard_parts:R_1608" H 8675 2575 60  0001 C CNN
 F 3 "" H 8675 2575 60  0000 C CNN
 	1    8675 2575
