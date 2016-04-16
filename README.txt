@@ -9,6 +9,7 @@ Rev.A   2015/03
 Rev.B   2015/05     ISO Enter fix
 Rev.C   2015/10     Silk fix: position of K70, K40 and value of resistor:10K -> 1K
                     Capslock for Cherry Stepped 1.25u
+Rev.D   2016/04     Fix Xtal foot print and value of R and C
 
 
 Ideas
