@@ -1,132 +1,22 @@
-ALPS 60% keyboard PCB
-=====================
-Primary goal is to support 60% cut AEK(Apple Extended Keyboard) layout and fits into Poker X cmpatible cases.
-
+ALPS 60% keyboard Plate
+=======================
 
 Revisions
 ---------
-Rev.A   2015/03
-Rev.B   2015/05     ISO Enter fix
-Rev.C   2015/10     Silk fix: position of K70, K40 and value of resistor:10K -> 1K
-                    Capslock for Cherry Stepped 1.25u
-Rev.D   2016/04     Fix Xtal foot print and value of R and C
+2016/07 AEK plate
 
 
 Ideas
 -----
-### LED ###
-Backlight won't support. Indicators may be needed for debug.
-LED footprint for ALPS Green?
-
-### PCB mount plate: ###
-1.6mm PCB will be OK for switch plate.
-SMD LED? WS2812? Matias style underside LED?
-
-### TrackPoint ###
-ATMega32u2 has no spare pins for TrackPoint three buttons and signals.
 
 
 TODO
 ----
-Footprint library
-    Centroid: Diode and capacitor footprint
-    Pin1 is cathode or capacitor-positive. Pin1 is left for two pin devices like resitor and caps.
-    Pin1 is on upper left for many pin device like DIP, QFP, SOT...
-    http://pcbget.ru/Files/Standarts/IPC_7351.pdf
-    http://www.screamingcircuits.com/Home/HowItWorks
-    http://i.screamingcircuits.com/docs/understanding-the-centroid-file-r2-2.pdf
-Schematic:
-    reversed pins of LED: create new LED component
-Silk fix:                                           DONE 10/09
-    placement of K70, K40
-    value of resistor:10K -> 1K
-Capslock for Cherry Stepped 1.25u:                  DONE 10/09
-    Someone may use Cherry keycaps with stem adapters.
-    never seen 1.25u stepped Capslock for Alps, normally 1.5u stepped or 1.75u(no stepped) for Alps
-
-ISP pads:
-Support for infinity bottom row: 1.5, 1, 1, 1.5:    DONE 03/05
-Thumb keys, split space bar:                        near future
-Trackpoint support: mount holes and IO pins:        Future revision
-Bluetooth support:                                  Future revision
-
-USB connector should be shifted to outside by 0.3-0.5mm. 04/05
-
-ISO Enter Fix:
-    keycap from Matias doesn't work with Rev.A
-        https://geekhack.org/index.php?topic=69740.msg1760105#msg1760105
-    keycap from NEC Rakuraku keyboard doesn't work too
-        https://geekhack.org/index.php?topic=69740.msg1760805#msg1760805
-
-    Matias mount is located at middle of 1.25u while 1.5u on NEC keycap(Alps?).
-    ISO Enter key position of Rev.A is middle of 1u but such Enter key doesn't exist perhapse.
-
-       ------- -------
-      |       |       |
-      |   +   |   +   | 1u
-      |       |   |   |
-       ------- -------
-            |     |   |
-            |    +|   | 1.25u
-            |    ||   |
-            `---------'
-          |      ||   |
-          |     +||   | 1.5u
-          |     |||   |
-          `-----------'
-          .-----------, 1.5u
-          |     |||   |
-          |     |||   |
-           `    +++   |
-            |         |
-            |         |
-            `---------' 1.25u
-
 
 
 Support Layouts
 ---------------
-Hopefully supports AEK, KBP V60, Omnikey and Dell layouts. AEK ISO layout is not supported due to its anormaly. See below link.
 
-Top right:
-    \, `        (HHKB style)
-    Backspace   (US)
-
-Right shift:
-    RShift, Fn  (HHKB/Omnikey style)
-    RShift      (US)
-
-Bottom row:
-    1.5, 1.25, 1.5,     space 6.5,  1.5, 1.25, 1.5          (AEK)
-    1.5, 1, 1.5,        space 7,    1.5, 1, 1.5             (101key,103key)
-    1.25, 1.25, 1.25,   space 6.25, 1.25, 1.25, 1.25, 1.25  (V60, 104key, Infinity Standard)
-    1.5, 1, 1.5,        space 6,    1.5, 1, 1, 1.5          (Infinity Hacker)
-
-ISO:
-    ISO Enter key
-    ISO LShift
-
-Space bar:
-    7.0u                                                    (AEK, 101key, 103key)
-    6.375u                                                  (V60, 104key, Infinity Standard)
-    6.5u                                                    (Infinity Hacker)
-
-Caps lock:
-    0.75u(3/8)                                              (Non Stepped)
-    0.25u(2/8)                                              (Dell/SGI Stepped)
-    0.125u(1/8)                                             (Cherry Stepped)
-
-(key unit; Top row: Esc[0u], 1[1u], ... 7[7u], ...)
-
-
-Support Cases
--------------
-Poker X case and its compatibles.
-Also V60 case are supported hopefully with ballpark figure from pics.
-
-TODO:
-Poker3/Pok3r case
-https://massdrop-s3.imgix.net/product-images/MD-6955_20150414182153_3159611692efb865.jpg
 
 
 Pics and Resources
