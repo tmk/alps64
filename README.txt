@@ -10,6 +10,7 @@ Rev.B   2015/05     ISO Enter fix
 Rev.C   2015/10     Silk fix: position of K70, K40 and value of resistor:10K -> 1K
                     Capslock for Cherry Stepped 1.25u
 Rev.D   2016/04     Fix Xtal foot print and value of R and C
+Rev.E   2016/08     Retouch USB connector footprint and silks
 
 
 Ideas
@@ -52,14 +53,19 @@ Bluetooth support:                                  Future revision
 
 USB connector should be shifted to outside by 0.3-0.5mm. 04/05
 
-ISO Enter Fix:
-    keycap from Matias doesn't work with Rev.A
-        https://geekhack.org/index.php?topic=69740.msg1760105#msg1760105
-    keycap from NEC Rakuraku keyboard doesn't work too
-        https://geekhack.org/index.php?topic=69740.msg1760805#msg1760805
+ISO Enter Support:
+    ISO Enter key can be used in Rev.B and later revision. The PCB supports three mount positions, 1u, 1.25u and 1.5u. See pictures and figure below. Matias has 1.25u mount, Dell and Alps have 1.5u mount and ISO Enter with 1u mount is not confirmed its existence yet. By the way, Cherry ISO key is also located in middle of 1.25u as Matias does.
 
-    Matias mount is located at middle of 1.25u while 1.5u on NEC keycap(Alps?).
-    ISO Enter key position of Rev.A is middle of 1u but such Enter key doesn't exist perhapse.
+    keycap from Matias
+        https://geekhack.org/index.php?topic=69740.msg1760105#msg1760105
+        http://i.imgur.com/tiPWImU.png
+    keycap from NEC Rakuraku keyboard(Alps)
+        https://geekhack.org/index.php?topic=69740.msg1760805#msg1760805
+        http://i.imgur.com/YKIbKlrl.jpg
+    keycap from Dell AT102W
+        https://geekhack.org/index.php?topic=69740.msg1761095#msg1761095
+        https://geekhack.org/index.php?action=dlattach;topic=69740.0;attach=101849;image
+
 
        ------- -------
       |       |       |
