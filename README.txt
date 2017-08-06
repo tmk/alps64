@@ -11,6 +11,7 @@ Rev.C   2015/10     Silk fix: position of K70, K40 and value of resistor:10K -> 
                     Capslock for Cherry Stepped 1.25u
 Rev.D   2016/04     Fix Xtal foot print and value of R and C
 Rev.E   2016/08     Retouch USB connector footprint and silks
+Rev.F   2017/08     Add breakout for unused pins(PC4, PC6, PC7)
 
 
 Ideas
