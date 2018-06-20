@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ATMEGA32U2 U1
+L keyboard_parts:ATMEGA32U2 U1
 U 1 1 53E1BC7B
 P 5225 2050
 F 0 "U1" H 5225 1100 60  0000 C CNN
@@ -110,18 +110,7 @@ Entry Wire Line
 Entry Wire Line
 	6975 2900 6875 2800
 $Comp
-L CRYSTAL X1
-U 1 1 53E20C9D
-P 2425 1475
-F 0 "X1" H 2425 1625 60  0000 C CNN
-F 1 "CRYSTAL" H 2425 1325 60  0000 C CNN
-F 2 "keyboard_parts:FA-238" H 2425 1475 60  0001 C CNN
-F 3 "" H 2425 1475 60  0000 C CNN
-	1    2425 1475
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C4
+L keyboard_parts:C C4
 U 1 1 53E21160
 P 2125 1900
 F 0 "C4" H 2175 2000 50  0000 L CNN
@@ -132,7 +121,7 @@ F 3 "" H 2125 1900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L keyboard_parts:C C3
 U 1 1 53E211DC
 P 2725 1900
 F 0 "C3" H 2775 2000 50  0000 L CNN
@@ -143,7 +132,7 @@ F 3 "" H 2725 1900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR01
+L keyboard_parts:+5V #PWR01
 U 1 1 53E22165
 P 3100 1175
 F 0 "#PWR01" H 3100 1265 20  0001 C CNN
@@ -154,7 +143,7 @@ F 3 "" H 3100 1175 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C5
+L keyboard_parts:C C5
 U 1 1 53E2255C
 P 3100 1900
 F 0 "C5" H 3150 2000 50  0000 L CNN
@@ -171,7 +160,7 @@ col0
 Text Label 9075 4700 0    60   ~ 0
 col0
 $Comp
-L GND #PWR02
+L keyboard_parts:GND #PWR02
 U 1 1 53E27502
 P 2425 2250
 F 0 "#PWR02" H 2425 2250 30  0001 C CNN
@@ -181,10 +170,6 @@ F 3 "" H 2425 2250 60  0000 C CNN
 	1    2425 2250
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	3525 3150 3525 1275
-Wire Bus Line
-	8950 4625 8950 6350
 Wire Wire Line
 	9350 4700 9050 4700
 Wire Wire Line
@@ -201,8 +186,6 @@ Wire Wire Line
 	4175 2300 3625 2300
 Wire Wire Line
 	4175 2400 3625 2400
-Wire Wire Line
-	3250 2500 4175 2500
 Wire Wire Line
 	9050 4850 9350 4850
 Wire Wire Line
@@ -233,8 +216,6 @@ Wire Wire Line
 	10750 5600 10450 5600
 Wire Wire Line
 	10450 5750 10750 5750
-Wire Bus Line
-	10850 6350 10850 4625
 Wire Wire Line
 	4175 2600 3625 2600
 Wire Wire Line
@@ -255,18 +236,10 @@ Wire Wire Line
 	6325 2700 6875 2700
 Wire Wire Line
 	6325 2800 6875 2800
-Wire Bus Line
-	6975 1275 6975 6350
 Wire Wire Line
 	4175 1400 2725 1400
 Wire Wire Line
 	4175 1300 2125 1300
-Wire Wire Line
-	2125 1300 2125 1700
-Wire Wire Line
-	2725 1400 2725 1700
-Connection ~ 2725 1475
-Connection ~ 2125 1475
 Wire Wire Line
 	2725 2100 2725 2175
 Connection ~ 2425 2175
@@ -275,19 +248,19 @@ Wire Wire Line
 Wire Wire Line
 	3425 1500 3425 2175
 Wire Wire Line
-	2425 1675 2425 2250
+	2425 1675 2425 2175
 Wire Wire Line
 	3100 1600 4175 1600
 Connection ~ 3100 1600
 Wire Wire Line
 	2125 2100 2125 2175
 Wire Wire Line
-	2125 2175 3425 2175
+	2125 2175 2425 2175
 Wire Wire Line
 	3100 2175 3100 2100
 Connection ~ 3100 2175
 Wire Wire Line
-	3100 1175 3100 1700
+	3100 1175 3100 1600
 Connection ~ 2725 2175
 Text Label 9075 4850 0    60   ~ 0
 col1
@@ -352,7 +325,7 @@ row7
 Wire Wire Line
 	3250 2500 3250 2650
 $Comp
-L R R3
+L keyboard_parts:R R3
 U 1 1 53E2E032
 P 3250 2900
 F 0 "R3" V 3330 2900 50  0000 C CNN
@@ -365,7 +338,7 @@ $EndComp
 Wire Wire Line
 	3250 3150 3250 3225
 $Comp
-L GND #PWR03
+L keyboard_parts:GND #PWR03
 U 1 1 53E2E39E
 P 3250 3225
 F 0 "#PWR03" H 3250 3225 30  0001 C CNN
@@ -383,7 +356,7 @@ NoConn ~ 6325 2300
 Wire Wire Line
 	7375 2100 7375 2175
 $Comp
-L SW_PUSH SW100
+L keyboard_parts:SW_PUSH SW100
 U 1 1 53E31B59
 P 7375 2475
 F 0 "SW100" H 7525 2585 50  0000 C CNN
@@ -394,7 +367,7 @@ F 3 "" H 7375 2475 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR04
+L keyboard_parts:GND #PWR04
 U 1 1 53E31C78
 P 9750 3000
 F 0 "#PWR04" H 9750 3000 30  0001 C CNN
@@ -411,7 +384,7 @@ Wire Bus Line
 Wire Bus Line
 	6975 6350 10850 6350
 $Comp
-L C C6
+L keyboard_parts:C C6
 U 1 1 53E21AD8
 P 7800 2550
 F 0 "C6" H 7850 2650 50  0000 L CNN
@@ -422,7 +395,7 @@ F 3 "" H 7800 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L keyboard_parts:C C2
 U 1 1 53E21BA3
 P 9350 2550
 F 0 "C2" H 9400 2650 50  0000 L CNN
@@ -433,7 +406,7 @@ F 3 "" H 9350 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1
+L keyboard_parts:C C1
 U 1 1 53E21C15
 P 9750 2550
 F 0 "C1" H 9800 2650 50  0000 L CNN
@@ -444,7 +417,7 @@ F 3 "" H 9750 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L keyboard_parts:R R2
 U 1 1 53E21C6C
 P 6675 1600
 F 0 "R2" V 6755 1600 50  0000 C CNN
@@ -455,7 +428,7 @@ F 3 "" H 6675 1600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R1
+L keyboard_parts:R R1
 U 1 1 53E21CF0
 P 6675 1500
 F 0 "R1" V 6600 1500 50  0000 C CNN
@@ -470,7 +443,7 @@ Wire Wire Line
 Wire Wire Line
 	6325 1600 6425 1600
 $Comp
-L USB_mini_micro_B J1
+L keyboard_parts:USB_mini_micro_B J1
 U 1 1 53E22741
 P 10325 1550
 F 0 "J1" H 9925 1500 60  0000 C CNN
@@ -485,18 +458,18 @@ Wire Wire Line
 Wire Wire Line
 	10175 1600 6925 1600
 Wire Wire Line
-	10175 1400 6325 1400
+	10175 1400 9750 1400
 Wire Wire Line
-	7375 2850 10075 2850
+	7375 2850 7800 2850
 Wire Wire Line
-	10075 2850 10075 1700
+	10075 2850 10075 1900
 Wire Wire Line
 	10075 1800 10175 1800
 Wire Wire Line
 	10175 1900 10075 1900
 Connection ~ 10075 1900
 $Comp
-L +5V #PWR05
+L keyboard_parts:+5V #PWR05
 U 1 1 53E24838
 P 7800 1225
 F 0 "#PWR05" H 7800 1315 20  0001 C CNN
@@ -508,10 +481,10 @@ F 3 "" H 7800 1225 60  0000 C CNN
 $EndComp
 NoConn ~ 10175 1700
 Wire Wire Line
-	9750 1275 9750 2350
+	9750 1275 9750 1400
 Connection ~ 9750 1400
 Wire Wire Line
-	9750 2750 9750 3000
+	9750 2750 9750 2850
 Connection ~ 9750 2850
 Wire Wire Line
 	9350 1800 9350 2350
@@ -524,13 +497,13 @@ Connection ~ 10075 1800
 Wire Wire Line
 	6325 1300 7800 1300
 Wire Wire Line
-	7800 1225 7800 2350
+	7800 1225 7800 1300
 Wire Wire Line
 	7800 2750 7800 2850
 Connection ~ 7800 2850
 Connection ~ 7800 1300
 $Comp
-L +5V #PWR06
+L keyboard_parts:+5V #PWR06
 U 1 1 53E2C759
 P 9750 1275
 F 0 "#PWR06" H 9750 1365 20  0001 C CNN
@@ -549,7 +522,7 @@ D-R
 Text Label 6350 1600 0    60   ~ 0
 D+R
 $Comp
-L R R4
+L keyboard_parts:R R4
 U 1 1 55069445
 P 8675 2575
 F 0 "R4" V 8755 2575 50  0000 C CNN
@@ -560,7 +533,7 @@ F 3 "" H 8675 2575 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED LED1
+L keyboard_parts:LED LED1
 U 1 1 5506952C
 P 8375 2000
 F 0 "LED1" H 8375 2100 50  0000 C CNN
@@ -581,4 +554,65 @@ Wire Wire Line
 	8175 2000 6325 2000
 Text Notes 4950 2750 0    60   ~ 0
 ATMega32U2
+Wire Wire Line
+	2425 2175 2425 2250
+Wire Wire Line
+	2425 2175 2725 2175
+Wire Wire Line
+	3100 1600 3100 1700
+Wire Wire Line
+	3100 2175 3425 2175
+Wire Wire Line
+	2725 2175 3100 2175
+Wire Wire Line
+	10075 1900 10075 1800
+Wire Wire Line
+	9750 1400 6325 1400
+Wire Wire Line
+	9750 1400 9750 2350
+Wire Wire Line
+	9750 2850 10075 2850
+Wire Wire Line
+	9750 2850 9750 3000
+Wire Wire Line
+	9350 2850 9750 2850
+Wire Wire Line
+	10075 1800 10075 1700
+Wire Wire Line
+	7800 2850 8675 2850
+Wire Wire Line
+	7800 1300 7800 2350
+Wire Wire Line
+	8675 2850 9350 2850
+Wire Wire Line
+	2125 1300 2125 1475
+Wire Wire Line
+	2725 1400 2725 1475
+Wire Wire Line
+	3250 2500 4175 2500
+Wire Bus Line
+	6975 1275 6975 6350
+Wire Bus Line
+	8950 4625 8950 6350
+Wire Bus Line
+	10850 4625 10850 6350
+Wire Bus Line
+	3525 1275 3525 3150
+$Comp
+L keyboard_parts:XTAL_GND X1
+U 1 1 5B2DADAF
+P 2425 1475
+F 0 "X1" H 2425 1600 60  0000 C CNN
+F 1 "XTAL_GND" H 2425 1661 60  0001 C CNN
+F 2 "" H 2425 1475 60  0000 C CNN
+F 3 "" H 2425 1475 60  0000 C CNN
+	1    2425 1475
+	1    0    0    -1  
+$EndComp
+Connection ~ 2125 1475
+Wire Wire Line
+	2125 1475 2125 1700
+Connection ~ 2725 1475
+Wire Wire Line
+	2725 1475 2725 1700
 $EndSCHEMATC

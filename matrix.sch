@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L D-RESCUE-alps64 D00
+L keyboard_parts:D D00
 U 1 1 53E4A537
 P 2200 2750
 AR Path="/53E4A537" Ref="D00"  Part="1" 
@@ -28,7 +28,7 @@ F 3 "" H 2200 2750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K46
+L keyboard_parts:KEYSW K46
 U 1 1 53E4A53E
 P 12100 5750
 F 0 "K46" H 12150 5750 60  0000 C CNN
@@ -39,7 +39,7 @@ F 3 "" H 12100 5750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D10
+L keyboard_parts:D D10
 U 1 1 53E4A545
 P 2200 3550
 AR Path="/53E4A545" Ref="D10"  Part="1" 
@@ -52,7 +52,7 @@ F 3 "" H 2200 3550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K10
+L keyboard_parts:KEYSW K10
 U 1 1 53E4A54C
 P 2500 3350
 F 0 "K10" H 2550 3350 60  0000 C CNN
@@ -63,7 +63,7 @@ F 3 "" H 2500 3350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D20
+L keyboard_parts:D D20
 U 1 1 53E4A553
 P 2200 4350
 AR Path="/53E4A553" Ref="D20"  Part="1" 
@@ -76,7 +76,7 @@ F 3 "" H 2200 4350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K20
+L keyboard_parts:KEYSW K20
 U 1 1 53E4A55A
 P 2500 4150
 F 0 "K20" H 2550 4150 60  0000 C CNN
@@ -87,7 +87,7 @@ F 3 "" H 2500 4150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D30
+L keyboard_parts:D D30
 U 1 1 53E4A561
 P 2200 5150
 AR Path="/53E4A561" Ref="D30"  Part="1" 
@@ -100,7 +100,7 @@ F 3 "" H 2200 5150 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K30
+L keyboard_parts:KEYSW K30
 U 1 1 53E4A568
 P 2500 4950
 F 0 "K30" H 2550 4950 60  0000 C CNN
@@ -111,7 +111,7 @@ F 3 "" H 2500 4950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D40
+L keyboard_parts:D D40
 U 1 1 53E4A56F
 P 2200 5950
 AR Path="/53E4A56F" Ref="D40"  Part="1" 
@@ -124,7 +124,7 @@ F 3 "" H 2200 5950 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K40
+L keyboard_parts:KEYSW K40
 U 1 1 53E4A576
 P 2500 5750
 F 0 "K40" H 2550 5750 60  0000 C CNN
@@ -135,7 +135,7 @@ F 3 "" H 2500 5750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D50
+L keyboard_parts:D D50
 U 1 1 53E4A57D
 P 2200 6750
 AR Path="/53E4A57D" Ref="D50"  Part="1" 
@@ -148,7 +148,7 @@ F 3 "" H 2200 6750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K50
+L keyboard_parts:KEYSW K50
 U 1 1 53E4A584
 P 2500 6550
 F 0 "K50" H 2550 6550 60  0000 C CNN
@@ -159,7 +159,7 @@ F 3 "" H 2500 6550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D60
+L keyboard_parts:D D60
 U 1 1 53E4A58B
 P 2200 7550
 AR Path="/53E4A58B" Ref="D60"  Part="1" 
@@ -172,7 +172,7 @@ F 3 "" H 2200 7550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K60
+L keyboard_parts:KEYSW K60
 U 1 1 53E4A592
 P 2500 7350
 F 0 "K60" H 2550 7350 60  0000 C CNN
@@ -183,7 +183,7 @@ F 3 "" H 2500 7350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D70
+L keyboard_parts:D D70
 U 1 1 53E4A599
 P 2200 8350
 AR Path="/53E4A599" Ref="D70"  Part="1" 
@@ -196,7 +196,7 @@ F 3 "" H 2200 8350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K70
+L keyboard_parts:KEYSW K70
 U 1 1 53E4A5A0
 P 2500 8150
 F 0 "K70" H 2550 8150 60  0000 C CNN
@@ -207,7 +207,7 @@ F 3 "" H 2500 8150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D01
+L keyboard_parts:D D01
 U 1 1 53E4A5A7
 P 3800 2750
 AR Path="/53E4A5A7" Ref="D01"  Part="1" 
@@ -220,7 +220,7 @@ F 3 "" H 3800 2750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K01
+L keyboard_parts:KEYSW K01
 U 1 1 53E4A5AE
 P 4100 2550
 F 0 "K01" H 4150 2550 60  0000 C CNN
@@ -231,7 +231,7 @@ F 3 "" H 4100 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D11
+L keyboard_parts:D D11
 U 1 1 53E4A5B5
 P 3800 3550
 AR Path="/53E4A5B5" Ref="D11"  Part="1" 
@@ -244,7 +244,7 @@ F 3 "" H 3800 3550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K11
+L keyboard_parts:KEYSW K11
 U 1 1 53E4A5BC
 P 4100 3350
 F 0 "K11" H 4150 3350 60  0000 C CNN
@@ -255,7 +255,7 @@ F 3 "" H 4100 3350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D21
+L keyboard_parts:D D21
 U 1 1 53E4A5C3
 P 3800 4350
 AR Path="/53E4A5C3" Ref="D21"  Part="1" 
@@ -268,7 +268,7 @@ F 3 "" H 3800 4350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K21
+L keyboard_parts:KEYSW K21
 U 1 1 53E4A5CA
 P 4100 4150
 F 0 "K21" H 4150 4150 60  0000 C CNN
@@ -279,7 +279,7 @@ F 3 "" H 4100 4150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D31
+L keyboard_parts:D D31
 U 1 1 53E4A5D1
 P 3800 5150
 AR Path="/53E4A5D1" Ref="D31"  Part="1" 
@@ -292,7 +292,7 @@ F 3 "" H 3800 5150 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K31
+L keyboard_parts:KEYSW K31
 U 1 1 53E4A5D8
 P 4100 4950
 F 0 "K31" H 4150 4950 60  0000 C CNN
@@ -303,7 +303,7 @@ F 3 "" H 4100 4950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D41
+L keyboard_parts:D D41
 U 1 1 53E4A5DF
 P 3800 5950
 AR Path="/53E4A5DF" Ref="D41"  Part="1" 
@@ -316,7 +316,7 @@ F 3 "" H 3800 5950 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K41
+L keyboard_parts:KEYSW K41
 U 1 1 53E4A5E6
 P 4100 5750
 F 0 "K41" H 4150 5750 60  0000 C CNN
@@ -327,7 +327,7 @@ F 3 "" H 4100 5750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D51
+L keyboard_parts:D D51
 U 1 1 53E4A5ED
 P 3800 6750
 AR Path="/53E4A5ED" Ref="D51"  Part="1" 
@@ -340,7 +340,7 @@ F 3 "" H 3800 6750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K51
+L keyboard_parts:KEYSW K51
 U 1 1 53E4A5F4
 P 4100 6550
 F 0 "K51" H 4150 6550 60  0000 C CNN
@@ -351,7 +351,7 @@ F 3 "" H 4100 6550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D61
+L keyboard_parts:D D61
 U 1 1 53E4A5FB
 P 3800 7550
 AR Path="/53E4A5FB" Ref="D61"  Part="1" 
@@ -364,7 +364,7 @@ F 3 "" H 3800 7550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K61
+L keyboard_parts:KEYSW K61
 U 1 1 53E4A602
 P 4100 7350
 F 0 "K61" H 4150 7350 60  0000 C CNN
@@ -375,7 +375,7 @@ F 3 "" H 4100 7350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D71
+L keyboard_parts:D D71
 U 1 1 53E4A609
 P 3800 8350
 AR Path="/53E4A609" Ref="D71"  Part="1" 
@@ -388,7 +388,7 @@ F 3 "" H 3800 8350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K71
+L keyboard_parts:KEYSW K71
 U 1 1 53E4A610
 P 4100 8150
 F 0 "K71" H 4150 8150 60  0000 C CNN
@@ -399,7 +399,7 @@ F 3 "" H 4100 8150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D02
+L keyboard_parts:D D02
 U 1 1 53E4A617
 P 5400 2750
 AR Path="/53E4A617" Ref="D02"  Part="1" 
@@ -412,7 +412,7 @@ F 3 "" H 5400 2750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K75
+L keyboard_parts:KEYSW K75
 U 1 1 53E4A61E
 P 10500 8150
 F 0 "K75" H 10550 8150 60  0000 C CNN
@@ -423,7 +423,7 @@ F 3 "" H 10500 8150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D12
+L keyboard_parts:D D12
 U 1 1 53E4A625
 P 5400 3550
 AR Path="/53E4A625" Ref="D12"  Part="1" 
@@ -436,7 +436,7 @@ F 3 "" H 5400 3550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K12
+L keyboard_parts:KEYSW K12
 U 1 1 53E4A62C
 P 5700 3350
 F 0 "K12" H 5750 3350 60  0000 C CNN
@@ -447,7 +447,7 @@ F 3 "" H 5700 3350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D22
+L keyboard_parts:D D22
 U 1 1 53E4A633
 P 5400 4350
 AR Path="/53E4A633" Ref="D22"  Part="1" 
@@ -460,7 +460,7 @@ F 3 "" H 5400 4350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K22
+L keyboard_parts:KEYSW K22
 U 1 1 53E4A63A
 P 5700 4150
 F 0 "K22" H 5750 4150 60  0000 C CNN
@@ -471,7 +471,7 @@ F 3 "" H 5700 4150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D32
+L keyboard_parts:D D32
 U 1 1 53E4A641
 P 5400 5150
 AR Path="/53E4A641" Ref="D32"  Part="1" 
@@ -484,7 +484,7 @@ F 3 "" H 5400 5150 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K32
+L keyboard_parts:KEYSW K32
 U 1 1 53E4A648
 P 5700 4950
 F 0 "K32" H 5750 4950 60  0000 C CNN
@@ -495,7 +495,7 @@ F 3 "" H 5700 4950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D42
+L keyboard_parts:D D42
 U 1 1 53E4A64F
 P 5400 5950
 AR Path="/53E4A64F" Ref="D42"  Part="1" 
@@ -508,7 +508,7 @@ F 3 "" H 5400 5950 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K42
+L keyboard_parts:KEYSW K42
 U 1 1 53E4A656
 P 5700 5750
 F 0 "K42" H 5750 5750 60  0000 C CNN
@@ -519,7 +519,7 @@ F 3 "" H 5700 5750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D52
+L keyboard_parts:D D52
 U 1 1 53E4A65D
 P 5400 6750
 AR Path="/53E4A65D" Ref="D52"  Part="1" 
@@ -532,7 +532,7 @@ F 3 "" H 5400 6750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K52
+L keyboard_parts:KEYSW K52
 U 1 1 53E4A664
 P 5700 6550
 F 0 "K52" H 5750 6550 60  0000 C CNN
@@ -543,7 +543,7 @@ F 3 "" H 5700 6550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D62
+L keyboard_parts:D D62
 U 1 1 53E4A66B
 P 5400 7550
 AR Path="/53E4A66B" Ref="D62"  Part="1" 
@@ -556,7 +556,7 @@ F 3 "" H 5400 7550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K62
+L keyboard_parts:KEYSW K62
 U 1 1 53E4A672
 P 5700 7350
 F 0 "K62" H 5750 7350 60  0000 C CNN
@@ -567,7 +567,7 @@ F 3 "" H 5700 7350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D72
+L keyboard_parts:D D72
 U 1 1 53E4A679
 P 5400 8350
 AR Path="/53E4A679" Ref="D72"  Part="1" 
@@ -580,7 +580,7 @@ F 3 "" H 5400 8350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K72
+L keyboard_parts:KEYSW K72
 U 1 1 53E4A680
 P 5700 8150
 F 0 "K72" H 5750 8150 60  0000 C CNN
@@ -591,7 +591,7 @@ F 3 "" H 5700 8150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D03
+L keyboard_parts:D D03
 U 1 1 53E4A687
 P 7000 2750
 AR Path="/53E4A687" Ref="D03"  Part="1" 
@@ -604,7 +604,7 @@ F 3 "" H 7000 2750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K03
+L keyboard_parts:KEYSW K03
 U 1 1 53E4A68E
 P 7300 2550
 F 0 "K03" H 7350 2550 60  0000 C CNN
@@ -615,7 +615,7 @@ F 3 "" H 7300 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D13
+L keyboard_parts:D D13
 U 1 1 53E4A695
 P 7000 3550
 AR Path="/53E4A695" Ref="D13"  Part="1" 
@@ -628,7 +628,7 @@ F 3 "" H 7000 3550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K13
+L keyboard_parts:KEYSW K13
 U 1 1 53E4A69C
 P 7300 3350
 F 0 "K13" H 7350 3350 60  0000 C CNN
@@ -639,7 +639,7 @@ F 3 "" H 7300 3350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D23
+L keyboard_parts:D D23
 U 1 1 53E4A6A3
 P 7000 4350
 AR Path="/53E4A6A3" Ref="D23"  Part="1" 
@@ -652,7 +652,7 @@ F 3 "" H 7000 4350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K23
+L keyboard_parts:KEYSW K23
 U 1 1 53E4A6AA
 P 7300 4200
 F 0 "K23" H 7350 4200 60  0000 C CNN
@@ -663,7 +663,7 @@ F 3 "" H 7300 4200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D33
+L keyboard_parts:D D33
 U 1 1 53E4A6B1
 P 7000 5150
 AR Path="/53E4A6B1" Ref="D33"  Part="1" 
@@ -676,7 +676,7 @@ F 3 "" H 7000 5150 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K33
+L keyboard_parts:KEYSW K33
 U 1 1 53E4A6B8
 P 7300 4950
 F 0 "K33" H 7350 4950 60  0000 C CNN
@@ -687,7 +687,7 @@ F 3 "" H 7300 4950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D43
+L keyboard_parts:D D43
 U 1 1 53E4A6BF
 P 7000 5950
 AR Path="/53E4A6BF" Ref="D43"  Part="1" 
@@ -700,7 +700,7 @@ F 3 "" H 7000 5950 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K43
+L keyboard_parts:KEYSW K43
 U 1 1 53E4A6C6
 P 7300 5750
 F 0 "K43" H 7350 5750 60  0000 C CNN
@@ -711,7 +711,7 @@ F 3 "" H 7300 5750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D53
+L keyboard_parts:D D53
 U 1 1 53E4A6CD
 P 7000 6750
 AR Path="/53E4A6CD" Ref="D53"  Part="1" 
@@ -724,7 +724,7 @@ F 3 "" H 7000 6750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K53
+L keyboard_parts:KEYSW K53
 U 1 1 53E4A6D4
 P 7300 6550
 F 0 "K53" H 7350 6550 60  0000 C CNN
@@ -735,7 +735,7 @@ F 3 "" H 7300 6550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D63
+L keyboard_parts:D D63
 U 1 1 53E4A6DB
 P 7000 7550
 AR Path="/53E4A6DB" Ref="D63"  Part="1" 
@@ -748,7 +748,7 @@ F 3 "" H 7000 7550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K63
+L keyboard_parts:KEYSW K63
 U 1 1 53E4A6E2
 P 7300 7350
 F 0 "K63" H 7350 7350 60  0000 C CNN
@@ -759,7 +759,7 @@ F 3 "" H 7300 7350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D73
+L keyboard_parts:D D73
 U 1 1 53E4A6E9
 P 7000 8350
 AR Path="/53E4A6E9" Ref="D73"  Part="1" 
@@ -772,7 +772,7 @@ F 3 "" H 7000 8350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K73
+L keyboard_parts:KEYSW K73
 U 1 1 53E4A6F0
 P 7300 8150
 F 0 "K73" H 7350 8150 60  0000 C CNN
@@ -783,7 +783,7 @@ F 3 "" H 7300 8150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D04
+L keyboard_parts:D D04
 U 1 1 53E4A6F7
 P 8600 2750
 AR Path="/53E4A6F7" Ref="D04"  Part="1" 
@@ -796,7 +796,7 @@ F 3 "" H 8600 2750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K04
+L keyboard_parts:KEYSW K04
 U 1 1 53E4A6FE
 P 8900 2550
 F 0 "K04" H 8950 2550 60  0000 C CNN
@@ -807,7 +807,7 @@ F 3 "" H 8900 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D14
+L keyboard_parts:D D14
 U 1 1 53E4A705
 P 8600 3550
 AR Path="/53E4A705" Ref="D14"  Part="1" 
@@ -820,7 +820,7 @@ F 3 "" H 8600 3550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K14
+L keyboard_parts:KEYSW K14
 U 1 1 53E4A70C
 P 8900 3350
 F 0 "K14" H 8950 3350 60  0000 C CNN
@@ -831,7 +831,7 @@ F 3 "" H 8900 3350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D24
+L keyboard_parts:D D24
 U 1 1 53E4A713
 P 8600 4350
 AR Path="/53E4A713" Ref="D24"  Part="1" 
@@ -844,7 +844,7 @@ F 3 "" H 8600 4350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K24
+L keyboard_parts:KEYSW K24
 U 1 1 53E4A71A
 P 8900 4150
 F 0 "K24" H 8950 4150 60  0000 C CNN
@@ -855,7 +855,7 @@ F 3 "" H 8900 4150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D34
+L keyboard_parts:D D34
 U 1 1 53E4A721
 P 8600 5150
 AR Path="/53E4A721" Ref="D34"  Part="1" 
@@ -868,7 +868,7 @@ F 3 "" H 8600 5150 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K34
+L keyboard_parts:KEYSW K34
 U 1 1 53E4A728
 P 8900 4950
 F 0 "K34" H 8950 4950 60  0000 C CNN
@@ -879,7 +879,7 @@ F 3 "" H 8900 4950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D44
+L keyboard_parts:D D44
 U 1 1 53E4A72F
 P 8600 5950
 AR Path="/53E4A72F" Ref="D44"  Part="1" 
@@ -892,7 +892,7 @@ F 3 "" H 8600 5950 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K44
+L keyboard_parts:KEYSW K44
 U 1 1 53E4A736
 P 8900 5750
 F 0 "K44" H 8950 5750 60  0000 C CNN
@@ -903,7 +903,7 @@ F 3 "" H 8900 5750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D54
+L keyboard_parts:D D54
 U 1 1 53E4A73D
 P 8600 6750
 AR Path="/53E4A73D" Ref="D54"  Part="1" 
@@ -916,7 +916,7 @@ F 3 "" H 8600 6750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K54
+L keyboard_parts:KEYSW K54
 U 1 1 53E4A744
 P 8900 6550
 F 0 "K54" H 8950 6550 60  0000 C CNN
@@ -927,7 +927,7 @@ F 3 "" H 8900 6550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D64
+L keyboard_parts:D D64
 U 1 1 53E4A74B
 P 8600 7550
 AR Path="/53E4A74B" Ref="D64"  Part="1" 
@@ -940,7 +940,7 @@ F 3 "" H 8600 7550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K64
+L keyboard_parts:KEYSW K64
 U 1 1 53E4A752
 P 8900 7350
 F 0 "K64" H 8950 7350 60  0000 C CNN
@@ -951,7 +951,7 @@ F 3 "" H 8900 7350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D74
+L keyboard_parts:D D74
 U 1 1 53E4A759
 P 8600 8350
 AR Path="/53E4A759" Ref="D74"  Part="1" 
@@ -964,7 +964,7 @@ F 3 "" H 8600 8350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K74
+L keyboard_parts:KEYSW K74
 U 1 1 53E4A760
 P 8900 8150
 F 0 "K74" H 8950 8150 60  0000 C CNN
@@ -975,7 +975,7 @@ F 3 "" H 8900 8150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D05
+L keyboard_parts:D D05
 U 1 1 53E4A767
 P 10200 2750
 AR Path="/53E4A767" Ref="D05"  Part="1" 
@@ -988,7 +988,7 @@ F 3 "" H 10200 2750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K05
+L keyboard_parts:KEYSW K05
 U 1 1 53E4A76E
 P 10500 2550
 F 0 "K05" H 10550 2550 60  0000 C CNN
@@ -999,7 +999,7 @@ F 3 "" H 10500 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D15
+L keyboard_parts:D D15
 U 1 1 53E4A775
 P 10200 3550
 AR Path="/53E4A775" Ref="D15"  Part="1" 
@@ -1012,7 +1012,7 @@ F 3 "" H 10200 3550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K15
+L keyboard_parts:KEYSW K15
 U 1 1 53E4A77C
 P 10500 3350
 F 0 "K15" H 10550 3350 60  0000 C CNN
@@ -1023,7 +1023,7 @@ F 3 "" H 10500 3350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D25
+L keyboard_parts:D D25
 U 1 1 53E4A783
 P 10200 4350
 AR Path="/53E4A783" Ref="D25"  Part="1" 
@@ -1036,7 +1036,7 @@ F 3 "" H 10200 4350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K25
+L keyboard_parts:KEYSW K25
 U 1 1 53E4A78A
 P 10500 4150
 F 0 "K25" H 10550 4150 60  0000 C CNN
@@ -1047,7 +1047,7 @@ F 3 "" H 10500 4150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D35
+L keyboard_parts:D D35
 U 1 1 53E4A791
 P 10200 5150
 AR Path="/53E4A791" Ref="D35"  Part="1" 
@@ -1060,7 +1060,7 @@ F 3 "" H 10200 5150 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K35
+L keyboard_parts:KEYSW K35
 U 1 1 53E4A798
 P 10500 4950
 F 0 "K35" H 10550 4950 60  0000 C CNN
@@ -1071,7 +1071,7 @@ F 3 "" H 10500 4950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D45
+L keyboard_parts:D D45
 U 1 1 53E4A79F
 P 10200 5950
 AR Path="/53E4A79F" Ref="D45"  Part="1" 
@@ -1084,7 +1084,7 @@ F 3 "" H 10200 5950 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K45
+L keyboard_parts:KEYSW K45
 U 1 1 53E4A7A6
 P 10500 5750
 F 0 "K45" H 10550 5750 60  0000 C CNN
@@ -1095,7 +1095,7 @@ F 3 "" H 10500 5750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D55
+L keyboard_parts:D D55
 U 1 1 53E4A7AD
 P 10200 6750
 AR Path="/53E4A7AD" Ref="D55"  Part="1" 
@@ -1108,7 +1108,7 @@ F 3 "" H 10200 6750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K55
+L keyboard_parts:KEYSW K55
 U 1 1 53E4A7B4
 P 10500 6550
 F 0 "K55" H 10550 6550 60  0000 C CNN
@@ -1119,7 +1119,7 @@ F 3 "" H 10500 6550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D65
+L keyboard_parts:D D65
 U 1 1 53E4A7BB
 P 10200 7550
 AR Path="/53E4A7BB" Ref="D65"  Part="1" 
@@ -1132,7 +1132,7 @@ F 3 "" H 10200 7550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K65
+L keyboard_parts:KEYSW K65
 U 1 1 53E4A7C2
 P 10500 7350
 F 0 "K65" H 10550 7350 60  0000 C CNN
@@ -1143,7 +1143,7 @@ F 3 "" H 10500 7350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D75
+L keyboard_parts:D D75
 U 1 1 53E4A7C9
 P 10200 8350
 AR Path="/53E4A7C9" Ref="D75"  Part="1" 
@@ -1156,7 +1156,7 @@ F 3 "" H 10200 8350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K02
+L keyboard_parts:KEYSW K02
 U 1 1 53E4A7D0
 P 5700 2550
 F 0 "K02" H 5750 2550 60  0000 C CNN
@@ -1167,7 +1167,7 @@ F 3 "" H 5700 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D06
+L keyboard_parts:D D06
 U 1 1 53E4A7D7
 P 11800 2750
 AR Path="/53E4A7D7" Ref="D06"  Part="1" 
@@ -1180,7 +1180,7 @@ F 3 "" H 11800 2750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K06
+L keyboard_parts:KEYSW K06
 U 1 1 53E4A7DE
 P 12100 2550
 F 0 "K06" H 12150 2550 60  0000 C CNN
@@ -1191,7 +1191,7 @@ F 3 "" H 12100 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D16
+L keyboard_parts:D D16
 U 1 1 53E4A7E5
 P 11800 3550
 AR Path="/53E4A7E5" Ref="D16"  Part="1" 
@@ -1204,7 +1204,7 @@ F 3 "" H 11800 3550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K16
+L keyboard_parts:KEYSW K16
 U 1 1 53E4A7EC
 P 12100 3350
 F 0 "K16" H 12150 3350 60  0000 C CNN
@@ -1215,7 +1215,7 @@ F 3 "" H 12100 3350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D26
+L keyboard_parts:D D26
 U 1 1 53E4A7F3
 P 11800 4350
 AR Path="/53E4A7F3" Ref="D26"  Part="1" 
@@ -1228,7 +1228,7 @@ F 3 "" H 11800 4350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K26
+L keyboard_parts:KEYSW K26
 U 1 1 53E4A7FA
 P 12100 4150
 F 0 "K26" H 12150 4150 60  0000 C CNN
@@ -1239,7 +1239,7 @@ F 3 "" H 12100 4150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D36
+L keyboard_parts:D D36
 U 1 1 53E4A801
 P 11800 5150
 AR Path="/53E4A801" Ref="D36"  Part="1" 
@@ -1252,7 +1252,7 @@ F 3 "" H 11800 5150 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K36
+L keyboard_parts:KEYSW K36
 U 1 1 53E4A808
 P 12100 4950
 F 0 "K36" H 12150 4950 60  0000 C CNN
@@ -1263,7 +1263,7 @@ F 3 "" H 12100 4950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D46
+L keyboard_parts:D D46
 U 1 1 53E4A80F
 P 11800 5950
 AR Path="/53E4A80F" Ref="D46"  Part="1" 
@@ -1276,7 +1276,7 @@ F 3 "" H 11800 5950 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K00
+L keyboard_parts:KEYSW K00
 U 1 1 53E4A816
 P 2500 2550
 F 0 "K00" H 2550 2550 60  0000 C CNN
@@ -1287,7 +1287,7 @@ F 3 "" H 2500 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D56
+L keyboard_parts:D D56
 U 1 1 53E4A81D
 P 11800 6750
 AR Path="/53E4A81D" Ref="D56"  Part="1" 
@@ -1300,7 +1300,7 @@ F 3 "" H 11800 6750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K56
+L keyboard_parts:KEYSW K56
 U 1 1 53E4A824
 P 12100 6550
 F 0 "K56" H 12150 6550 60  0000 C CNN
@@ -1311,7 +1311,7 @@ F 3 "" H 12100 6550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D66
+L keyboard_parts:D D66
 U 1 1 53E4A82B
 P 11800 7550
 AR Path="/53E4A82B" Ref="D66"  Part="1" 
@@ -1324,7 +1324,7 @@ F 3 "" H 11800 7550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K66
+L keyboard_parts:KEYSW K66
 U 1 1 53E4A832
 P 12100 7350
 F 0 "K66" H 12150 7350 60  0000 C CNN
@@ -1335,7 +1335,7 @@ F 3 "" H 12100 7350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D76
+L keyboard_parts:D D76
 U 1 1 53E4A839
 P 11800 8350
 AR Path="/53E4A839" Ref="D76"  Part="1" 
@@ -1348,7 +1348,7 @@ F 3 "" H 11800 8350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K76
+L keyboard_parts:KEYSW K76
 U 1 1 53E4A840
 P 12100 8150
 F 0 "K76" H 12150 8150 60  0000 C CNN
@@ -1359,7 +1359,7 @@ F 3 "" H 12100 8150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D07
+L keyboard_parts:D D07
 U 1 1 53E4A847
 P 13400 2750
 AR Path="/53E4A847" Ref="D07"  Part="1" 
@@ -1372,7 +1372,7 @@ F 3 "" H 13400 2750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K07
+L keyboard_parts:KEYSW K07
 U 1 1 53E4A84E
 P 13700 2550
 F 0 "K07" H 13750 2550 60  0000 C CNN
@@ -1383,7 +1383,7 @@ F 3 "" H 13700 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D17
+L keyboard_parts:D D17
 U 1 1 53E4A855
 P 13400 3550
 AR Path="/53E4A855" Ref="D17"  Part="1" 
@@ -1396,7 +1396,7 @@ F 3 "" H 13400 3550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K17
+L keyboard_parts:KEYSW K17
 U 1 1 53E4A85C
 P 13700 3350
 F 0 "K17" H 13750 3350 60  0000 C CNN
@@ -1407,7 +1407,7 @@ F 3 "" H 13700 3350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D27
+L keyboard_parts:D D27
 U 1 1 53E4A863
 P 13400 4350
 AR Path="/53E4A863" Ref="D27"  Part="1" 
@@ -1420,7 +1420,7 @@ F 3 "" H 13400 4350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K27
+L keyboard_parts:KEYSW K27
 U 1 1 53E4A86A
 P 13700 4150
 F 0 "K27" H 13750 4150 60  0000 C CNN
@@ -1431,7 +1431,7 @@ F 3 "" H 13700 4150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D37
+L keyboard_parts:D D37
 U 1 1 53E4A871
 P 13400 5150
 AR Path="/53E4A871" Ref="D37"  Part="1" 
@@ -1444,7 +1444,7 @@ F 3 "" H 13400 5150 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K37
+L keyboard_parts:KEYSW K37
 U 1 1 53E4A878
 P 13700 4950
 F 0 "K37" H 13750 4950 60  0000 C CNN
@@ -1455,7 +1455,7 @@ F 3 "" H 13700 4950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D47
+L keyboard_parts:D D47
 U 1 1 53E4A87F
 P 13400 5950
 AR Path="/53E4A87F" Ref="D47"  Part="1" 
@@ -1468,7 +1468,7 @@ F 3 "" H 13400 5950 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K47
+L keyboard_parts:KEYSW K47
 U 1 1 53E4A886
 P 13700 5750
 F 0 "K47" H 13750 5750 60  0000 C CNN
@@ -1479,7 +1479,7 @@ F 3 "" H 13700 5750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D57
+L keyboard_parts:D D57
 U 1 1 53E4A88D
 P 13400 6750
 AR Path="/53E4A88D" Ref="D57"  Part="1" 
@@ -1492,7 +1492,7 @@ F 3 "" H 13400 6750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K57
+L keyboard_parts:KEYSW K57
 U 1 1 53E4A894
 P 13700 6550
 F 0 "K57" H 13750 6550 60  0000 C CNN
@@ -1503,7 +1503,7 @@ F 3 "" H 13700 6550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D67
+L keyboard_parts:D D67
 U 1 1 53E4A89B
 P 13400 7550
 AR Path="/53E4A89B" Ref="D67"  Part="1" 
@@ -1516,7 +1516,7 @@ F 3 "" H 13400 7550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K67
+L keyboard_parts:KEYSW K67
 U 1 1 53E4A8A2
 P 13700 7350
 F 0 "K67" H 13750 7350 60  0000 C CNN
@@ -1527,7 +1527,7 @@ F 3 "" H 13700 7350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D-RESCUE-alps64 D77
+L keyboard_parts:D D77
 U 1 1 53E4A8A9
 P 13400 8350
 AR Path="/53E4A8A9" Ref="D77"  Part="1" 
@@ -1540,7 +1540,7 @@ F 3 "" H 13400 8350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K77
+L keyboard_parts:KEYSW K77
 U 1 1 53E4A8B0
 P 13700 8150
 F 0 "K77" H 13750 8150 60  0000 C CNN
@@ -1583,7 +1583,7 @@ row5
 Text HLabel 1650 7700 0    60   Input ~ 0
 row6
 $Comp
-L KEYSW K30_1
+L keyboard_parts:KEYSW K30_1
 U 1 1 54F2B167
 P 2500 4750
 F 0 "K30_1" H 2550 4750 60  0000 C CNN
@@ -1594,7 +1594,7 @@ F 3 "" H 2500 4750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KEYSW K40_1
+L keyboard_parts:KEYSW K40_1
 U 1 1 54F2CC7A
 P 2500 5650
 F 0 "K40_1" H 2550 5650 60  0000 C CNN
@@ -1605,7 +1605,7 @@ F 3 "" H 2500 5650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KEYSW K40_2
+L keyboard_parts:KEYSW K40_2
 U 1 1 54F2CE14
 P 2500 5550
 F 0 "K40_2" H 2550 5550 60  0000 C CNN
@@ -1616,7 +1616,7 @@ F 3 "" H 2500 5550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KEYSW K31_1
+L keyboard_parts:KEYSW K31_1
 U 1 1 54F2F0AF
 P 4100 4750
 F 0 "K31_1" H 4150 4750 60  0000 C CNN
@@ -1627,7 +1627,7 @@ F 3 "" H 4100 4750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KEYSW K60_1
+L keyboard_parts:KEYSW K60_1
 U 1 1 54F30397
 P 2500 7250
 F 0 "K60_1" H 2550 7250 60  0000 C CNN
@@ -1638,7 +1638,7 @@ F 3 "" H 2500 7250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KEYSW K10_1
+L keyboard_parts:KEYSW K10_1
 U 1 1 54F3161C
 P 2500 3250
 F 0 "K10_1" H 2550 3250 60  0000 C CNN
@@ -1649,7 +1649,7 @@ F 3 "" H 2500 3250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KEYSW K10_2
+L keyboard_parts:KEYSW K10_2
 U 1 1 54F31740
 P 2500 3150
 F 0 "K10_2" H 2550 3150 60  0000 C CNN
@@ -1660,7 +1660,7 @@ F 3 "" H 2500 3150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KEYSW K00_1
+L keyboard_parts:KEYSW K00_1
 U 1 1 54F32B86
 P 2500 2450
 F 0 "K00_1" H 2550 2450 60  0000 C CNN
@@ -1671,7 +1671,7 @@ F 3 "" H 2500 2450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KEYSW K00_2
+L keyboard_parts:KEYSW K00_2
 U 1 1 54F32CAA
 P 2500 2350
 F 0 "K00_2" H 2550 2350 60  0000 C CNN
@@ -1682,7 +1682,7 @@ F 3 "" H 2500 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KEYSW K20_1
+L keyboard_parts:KEYSW K20_1
 U 1 1 54F35069
 P 2500 3950
 F 0 "K20_1" H 2550 3950 60  0000 C CNN
@@ -1693,7 +1693,7 @@ F 3 "" H 2500 3950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KEYSW K21_1
+L keyboard_parts:KEYSW K21_1
 U 1 1 54F359DF
 P 4100 3950
 F 0 "K21_1" H 4150 3950 60  0000 C CNN
@@ -1704,7 +1704,7 @@ F 3 "" H 4100 3950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KEYSW K24_1
+L keyboard_parts:KEYSW K24_1
 U 1 1 54F3DDCA
 P 8900 3950
 F 0 "K24_1" H 8950 3950 60  0000 C CNN
@@ -1715,7 +1715,7 @@ F 3 "" H 8900 3950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KEYSW K50_1
+L keyboard_parts:KEYSW K50_1
 U 1 1 54F3ECD8
 P 2500 6450
 F 0 "K50_1" H 2550 6450 60  0000 C CNN
@@ -1726,7 +1726,7 @@ F 3 "" H 2500 6450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KEYSW K50_2
+L keyboard_parts:KEYSW K50_2
 U 1 1 54F3EE08
 P 2500 6350
 F 0 "K50_2" H 2550 6350 60  0000 C CNN
@@ -1737,7 +1737,7 @@ F 3 "" H 2500 6350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KEYSW K70_1
+L keyboard_parts:KEYSW K70_1
 U 1 1 54F8219B
 P 2500 7950
 F 0 "K70_1" H 2550 7950 60  0000 C CNN
@@ -1748,7 +1748,7 @@ F 3 "" H 2500 7950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KEYSW K00_3
+L keyboard_parts:KEYSW K00_3
 U 1 1 54F84A55
 P 2500 2250
 F 0 "K00_3" H 2550 2250 60  0000 C CNN
@@ -1759,7 +1759,7 @@ F 3 "" H 2500 2250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KEYSW K32_1
+L keyboard_parts:KEYSW K32_1
 U 1 1 55062A99
 P 5700 4750
 F 0 "K32_1" H 5750 4750 60  0000 C CNN
@@ -1772,7 +1772,7 @@ $EndComp
 Text Notes 4850 5250 0    60   ~ 0
 Caps lock
 $Comp
-L KEYSW K23_1
+L keyboard_parts:KEYSW K23_1
 U 1 1 5506FE38
 P 7300 4100
 F 0 "K23_1" H 7300 4100 60  0000 C CNN
@@ -1795,7 +1795,7 @@ Left Control
 Text Notes 1650 4450 0    60   ~ 0
 Right Control
 $Comp
-L KEYSW K27_1
+L keyboard_parts:KEYSW K27_1
 U 1 1 55075537
 P 13700 3950
 F 0 "K27_1" H 13750 3950 60  0000 C CNN
@@ -1816,7 +1816,7 @@ App
 Text Notes 1700 6850 0    60   ~ 0
 Left Alt
 $Comp
-L KEYSW K60_2
+L keyboard_parts:KEYSW K60_2
 U 1 1 55082936
 P 2500 7150
 F 0 "K60_2" H 2550 7150 60  0000 C CNN
@@ -1828,11 +1828,11 @@ F 3 "" H 2500 7150 60  0000 C CNN
 $EndComp
 Connection ~ 2800 7250
 Wire Wire Line
-	2800 7150 2800 7350
+	2800 7150 2800 7250
 Connection ~ 2200 7250
 Connection ~ 2200 7350
 Wire Wire Line
-	2200 7150 2200 7400
+	2200 7150 2200 7250
 Connection ~ 13400 4150
 Wire Wire Line
 	14000 3950 14000 4150
@@ -1846,7 +1846,7 @@ Wire Wire Line
 Connection ~ 2200 8150
 Connection ~ 2800 6450
 Wire Wire Line
-	2800 6350 2800 6550
+	2800 6350 2800 6450
 Connection ~ 2200 6450
 Connection ~ 2200 6550
 Wire Wire Line
@@ -1855,33 +1855,33 @@ Connection ~ 8600 4150
 Wire Wire Line
 	2200 2900 2200 2800
 Wire Wire Line
-	2200 2250 2200 2600
+	2200 2250 2200 2350
 Wire Wire Line
 	2200 3700 2200 3600
 Wire Wire Line
-	2200 3150 2200 3400
+	2200 3150 2200 3250
 Wire Wire Line
 	2200 4500 2200 4400
 Wire Wire Line
-	2200 3950 2200 4200
+	2200 3950 2200 4150
 Wire Wire Line
 	2200 5300 2200 5200
 Wire Wire Line
-	2200 4750 2200 5000
+	2200 4750 2200 4950
 Wire Wire Line
 	2200 6100 2200 6000
 Wire Wire Line
-	2200 5550 2200 5800
+	2200 5550 2200 5650
 Wire Wire Line
 	2200 6900 2200 6800
 Wire Wire Line
-	2200 6350 2200 6600
+	2200 6350 2200 6450
 Wire Wire Line
 	2200 7700 2200 7600
 Wire Wire Line
 	2200 8500 2200 8400
 Wire Wire Line
-	2200 7950 2200 8200
+	2200 7950 2200 8150
 Connection ~ 2200 2900
 Connection ~ 2200 3700
 Connection ~ 2200 4500
@@ -1925,11 +1925,11 @@ Wire Wire Line
 Wire Wire Line
 	3800 4500 3800 4400
 Wire Wire Line
-	3800 3950 3800 4200
+	3800 3950 3800 4150
 Wire Wire Line
 	3800 5300 3800 5200
 Wire Wire Line
-	3800 4750 3800 5000
+	3800 4750 3800 4950
 Wire Wire Line
 	3800 6100 3800 6000
 Wire Wire Line
@@ -1993,7 +1993,7 @@ Wire Wire Line
 Wire Wire Line
 	5400 5300 5400 5200
 Wire Wire Line
-	5400 4750 5400 5000
+	5400 4750 5400 4950
 Wire Wire Line
 	5400 6100 5400 6000
 Wire Wire Line
@@ -2108,7 +2108,7 @@ Wire Wire Line
 Wire Wire Line
 	8600 4500 8600 4400
 Wire Wire Line
-	8600 3950 8600 4200
+	8600 3950 8600 4150
 Wire Wire Line
 	8600 5300 8600 5200
 Wire Wire Line
@@ -2297,7 +2297,7 @@ Wire Wire Line
 Wire Wire Line
 	13400 4500 13400 4400
 Wire Wire Line
-	13400 3950 13400 4200
+	13400 3950 13400 4150
 Wire Wire Line
 	13400 5300 13400 5200
 Wire Wire Line
@@ -2350,37 +2350,37 @@ Wire Wire Line
 	14000 8150 14100 8150
 Connection ~ 14100 8150
 Wire Wire Line
-	2900 1950 2900 8900
+	2900 1950 2900 2550
 Wire Wire Line
-	4500 1950 4500 8900
+	4500 1950 4500 2550
 Wire Wire Line
-	6100 1950 6100 8900
+	6100 1950 6100 2550
 Wire Wire Line
-	7700 1950 7700 8900
+	7700 1950 7700 2550
 Wire Wire Line
-	9300 1950 9300 8900
+	9300 1950 9300 2550
 Wire Wire Line
-	10900 1950 10900 8900
+	10900 1950 10900 2550
 Wire Wire Line
-	12500 1950 12500 8900
+	12500 1950 12500 2550
 Wire Wire Line
-	14100 1950 14100 8900
+	14100 1950 14100 2550
 Wire Wire Line
-	1650 2900 14550 2900
+	1650 2900 2200 2900
 Wire Wire Line
-	1650 3700 14550 3700
+	1650 3700 2200 3700
 Wire Wire Line
-	1650 4500 14550 4500
+	1650 4500 2200 4500
 Wire Wire Line
-	1650 5300 14550 5300
+	1650 5300 2200 5300
 Wire Wire Line
-	1650 6100 14550 6100
+	1650 6100 2200 6100
 Wire Wire Line
-	1650 6900 14550 6900
+	1650 6900 2200 6900
 Wire Wire Line
-	1650 7700 14550 7700
+	1650 7700 2200 7700
 Wire Wire Line
-	1650 8500 14550 8500
+	1650 8500 2200 8500
 Connection ~ 11800 8500
 Connection ~ 13400 8500
 Connection ~ 10200 8500
@@ -2391,7 +2391,7 @@ Wire Wire Line
 	2800 4750 2800 4950
 Connection ~ 2200 4950
 Wire Wire Line
-	2800 5550 2800 5750
+	2800 5550 2800 5650
 Connection ~ 2800 5650
 Connection ~ 2200 5750
 Connection ~ 2200 5650
@@ -2401,10 +2401,10 @@ Connection ~ 3800 4950
 Connection ~ 2200 3350
 Connection ~ 2200 3250
 Wire Wire Line
-	2800 3150 2800 3350
+	2800 3150 2800 3250
 Connection ~ 2800 3250
 Wire Wire Line
-	2800 2250 2800 2550
+	2800 2250 2800 2350
 Connection ~ 2800 2450
 Connection ~ 2200 2550
 Connection ~ 2200 2450
@@ -2415,7 +2415,7 @@ Connection ~ 3800 4150
 Wire Wire Line
 	4400 3950 4400 4150
 $Comp
-L KEYSW K23_2
+L keyboard_parts:KEYSW K23_2
 U 1 1 5566A5BD
 P 7300 4000
 F 0 "K23_2" H 7300 4000 60  0000 C CNN
@@ -2426,7 +2426,7 @@ F 3 "" H 7300 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KEYSW K23_3
+L keyboard_parts:KEYSW K23_3
 U 1 1 5566A671
 P 7300 3900
 F 0 "K23_3" H 7300 3900 60  0000 C CNN
@@ -2439,7 +2439,7 @@ $EndComp
 Connection ~ 7000 4200
 Connection ~ 7700 4200
 Wire Wire Line
-	7000 3900 7000 4200
+	7000 3900 7000 4000
 Connection ~ 7600 4100
 Connection ~ 7600 4000
 Connection ~ 7000 4000
@@ -2449,5 +2449,319 @@ Wire Wire Line
 Wire Wire Line
 	7700 4200 7600 4200
 Wire Wire Line
-	7600 4200 7600 3900
+	7600 4200 7600 4100
+Wire Wire Line
+	2800 7250 2800 7350
+Wire Wire Line
+	2200 7250 2200 7350
+Wire Wire Line
+	2200 7350 2200 7400
+Wire Wire Line
+	13400 4150 13400 4200
+Wire Wire Line
+	5400 4950 5400 5000
+Wire Wire Line
+	2800 2350 2800 2450
+Wire Wire Line
+	2200 2350 2200 2450
+Wire Wire Line
+	2200 8150 2200 8200
+Wire Wire Line
+	2800 6450 2800 6550
+Wire Wire Line
+	2200 6450 2200 6550
+Wire Wire Line
+	2200 6550 2200 6600
+Wire Wire Line
+	8600 4150 8600 4200
+Wire Wire Line
+	2200 2900 3800 2900
+Wire Wire Line
+	2200 3700 3800 3700
+Wire Wire Line
+	2200 4500 3800 4500
+Wire Wire Line
+	2200 5300 3800 5300
+Wire Wire Line
+	2200 6100 3800 6100
+Wire Wire Line
+	2200 6900 3800 6900
+Wire Wire Line
+	2200 7700 3800 7700
+Wire Wire Line
+	2200 8500 3800 8500
+Wire Wire Line
+	2900 2550 2900 3350
+Wire Wire Line
+	2900 3350 2900 4150
+Wire Wire Line
+	2900 4150 2900 4950
+Wire Wire Line
+	2900 4950 2900 5750
+Wire Wire Line
+	2900 5750 2900 6550
+Wire Wire Line
+	2900 6550 2900 7350
+Wire Wire Line
+	2900 7350 2900 8150
+Wire Wire Line
+	2900 8150 2900 8900
+Wire Wire Line
+	3800 2900 5400 2900
+Wire Wire Line
+	3800 3700 5400 3700
+Wire Wire Line
+	3800 4500 5400 4500
+Wire Wire Line
+	3800 5300 5400 5300
+Wire Wire Line
+	3800 6100 5400 6100
+Wire Wire Line
+	3800 6900 5400 6900
+Wire Wire Line
+	3800 7700 5400 7700
+Wire Wire Line
+	4500 2550 4500 3350
+Wire Wire Line
+	4500 3350 4500 4150
+Wire Wire Line
+	4500 4150 4500 4950
+Wire Wire Line
+	4500 4950 4500 5750
+Wire Wire Line
+	4500 5750 4500 6550
+Wire Wire Line
+	4500 6550 4500 7350
+Wire Wire Line
+	4500 7350 4500 8150
+Wire Wire Line
+	4500 8150 4500 8900
+Wire Wire Line
+	3800 8500 5400 8500
+Wire Wire Line
+	5400 2900 7000 2900
+Wire Wire Line
+	5400 3700 7000 3700
+Wire Wire Line
+	5400 4500 7000 4500
+Wire Wire Line
+	5400 5300 7000 5300
+Wire Wire Line
+	5400 6100 7000 6100
+Wire Wire Line
+	5400 6900 7000 6900
+Wire Wire Line
+	5400 7700 7000 7700
+Wire Wire Line
+	6100 2550 6100 3350
+Wire Wire Line
+	6100 3350 6100 4150
+Wire Wire Line
+	6100 4150 6100 4950
+Wire Wire Line
+	6100 4950 6100 5750
+Wire Wire Line
+	6100 5750 6100 6550
+Wire Wire Line
+	6100 6550 6100 7350
+Wire Wire Line
+	6100 7350 6100 8150
+Wire Wire Line
+	6100 8150 6100 8900
+Wire Wire Line
+	7000 2900 8600 2900
+Wire Wire Line
+	7000 3700 8600 3700
+Wire Wire Line
+	7000 4500 8600 4500
+Wire Wire Line
+	7000 5300 8600 5300
+Wire Wire Line
+	7000 6100 8600 6100
+Wire Wire Line
+	7000 6900 8600 6900
+Wire Wire Line
+	7000 7700 8600 7700
+Wire Wire Line
+	7700 2550 7700 3350
+Wire Wire Line
+	7700 3350 7700 4200
+Wire Wire Line
+	7700 4950 7700 5750
+Wire Wire Line
+	7700 5750 7700 6550
+Wire Wire Line
+	7700 6550 7700 7350
+Wire Wire Line
+	7700 7350 7700 8150
+Wire Wire Line
+	7700 8150 7700 8900
+Wire Wire Line
+	8600 2900 10200 2900
+Wire Wire Line
+	8600 3700 10200 3700
+Wire Wire Line
+	8600 4500 10200 4500
+Wire Wire Line
+	8600 5300 10200 5300
+Wire Wire Line
+	8600 6100 10200 6100
+Wire Wire Line
+	8600 6900 10200 6900
+Wire Wire Line
+	8600 7700 10200 7700
+Wire Wire Line
+	9300 2550 9300 3350
+Wire Wire Line
+	9300 3350 9300 4150
+Wire Wire Line
+	9300 4150 9300 4950
+Wire Wire Line
+	9300 4950 9300 5750
+Wire Wire Line
+	9300 5750 9300 6550
+Wire Wire Line
+	9300 6550 9300 7350
+Wire Wire Line
+	9300 7350 9300 8150
+Wire Wire Line
+	9300 8150 9300 8900
+Wire Wire Line
+	10200 2900 11800 2900
+Wire Wire Line
+	10200 3700 11800 3700
+Wire Wire Line
+	10200 4500 11800 4500
+Wire Wire Line
+	10200 5300 11800 5300
+Wire Wire Line
+	10200 6100 11800 6100
+Wire Wire Line
+	10200 6900 11800 6900
+Wire Wire Line
+	10200 7700 11800 7700
+Wire Wire Line
+	10900 2550 10900 3350
+Wire Wire Line
+	10900 3350 10900 4150
+Wire Wire Line
+	10900 4150 10900 4950
+Wire Wire Line
+	10900 4950 10900 5750
+Wire Wire Line
+	10900 5750 10900 6550
+Wire Wire Line
+	10900 6550 10900 7350
+Wire Wire Line
+	10900 7350 10900 8150
+Wire Wire Line
+	10900 8150 10900 8900
+Wire Wire Line
+	11800 2900 13400 2900
+Wire Wire Line
+	11800 3700 13400 3700
+Wire Wire Line
+	11800 4500 13400 4500
+Wire Wire Line
+	11800 5300 13400 5300
+Wire Wire Line
+	11800 6100 13400 6100
+Wire Wire Line
+	11800 6900 13400 6900
+Wire Wire Line
+	11800 7700 13400 7700
+Wire Wire Line
+	12500 2550 12500 3350
+Wire Wire Line
+	12500 3350 12500 4150
+Wire Wire Line
+	12500 4150 12500 4950
+Wire Wire Line
+	12500 4950 12500 5750
+Wire Wire Line
+	12500 5750 12500 6550
+Wire Wire Line
+	12500 6550 12500 7350
+Wire Wire Line
+	12500 7350 12500 8150
+Wire Wire Line
+	12500 8150 12500 8900
+Wire Wire Line
+	13400 2900 14550 2900
+Wire Wire Line
+	13400 3700 14550 3700
+Wire Wire Line
+	13400 4500 14550 4500
+Wire Wire Line
+	13400 5300 14550 5300
+Wire Wire Line
+	13400 6100 14550 6100
+Wire Wire Line
+	13400 6900 14550 6900
+Wire Wire Line
+	13400 7700 14550 7700
+Wire Wire Line
+	14100 2550 14100 3350
+Wire Wire Line
+	14100 3350 14100 4150
+Wire Wire Line
+	14100 4150 14100 4950
+Wire Wire Line
+	14100 4950 14100 5750
+Wire Wire Line
+	14100 5750 14100 6550
+Wire Wire Line
+	14100 6550 14100 7350
+Wire Wire Line
+	14100 7350 14100 8150
+Wire Wire Line
+	14100 8150 14100 8900
+Wire Wire Line
+	11800 8500 13400 8500
+Wire Wire Line
+	13400 8500 14550 8500
+Wire Wire Line
+	10200 8500 11800 8500
+Wire Wire Line
+	8600 8500 10200 8500
+Wire Wire Line
+	7000 8500 8600 8500
+Wire Wire Line
+	5400 8500 7000 8500
+Wire Wire Line
+	2200 4950 2200 5000
+Wire Wire Line
+	2800 5650 2800 5750
+Wire Wire Line
+	2200 5750 2200 5800
+Wire Wire Line
+	2200 5650 2200 5750
+Wire Wire Line
+	3800 4950 3800 5000
+Wire Wire Line
+	2200 3350 2200 3400
+Wire Wire Line
+	2200 3250 2200 3350
+Wire Wire Line
+	2800 3250 2800 3350
+Wire Wire Line
+	2800 2450 2800 2550
+Wire Wire Line
+	2200 2550 2200 2600
+Wire Wire Line
+	2200 2450 2200 2550
+Wire Wire Line
+	2200 4150 2200 4200
+Wire Wire Line
+	3800 4150 3800 4200
+Wire Wire Line
+	7700 4200 7700 4950
+Wire Wire Line
+	7600 4100 7600 4000
+Wire Wire Line
+	7600 4000 7600 3900
+Wire Wire Line
+	7000 4000 7000 4100
+Wire Wire Line
+	7000 4100 7000 4200
 $EndSCHEMATC

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name alps64-rescue)(type Legacy)(uri ${KIPRJMOD}/alps64-rescue.lib)(options "")(descr "")(disabled))
+  (lib (name keyboard_parts)(type Legacy)(uri ${KIPRJMOD}/../library/keyboard_parts.lib)(options "")(descr ""))
+)
