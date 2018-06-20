@@ -143,6 +143,10 @@ Apple Extended Keyboard & II:
     AEK ISO is not standard, weirdly shfted to right and not supported.
     http://www.finestcomputers.co.uk/FinC/Apple/hardware/ExtendedKeyboard-II/No.3/EK2-1.JPG
 
+Dutch Apple Extended Keyboard with different spacebar stab(2018/05)
+    https://i.imgur.com/I1DEexi.jpg
+    https://geekhack.org/index.php?topic=69740.msg2604163#msg2604163
+
 KBParadise V60 with Matias:
     https://geekhack.org/index.php?topic=57386.30
     http://deskthority.net/review-f45/kbp-v60-matias-click-and-matias-quiet-click-keyboards-t9502.html

@@ -1,4 +1,4 @@
-update=Wed 13 Apr 2016 12:23:18 PM JST
+update=Fri 27 Apr 2018 13:24:29 JST
 version=1
 last_client=kicad
 [cvpcb]
@@ -30,36 +30,4 @@ BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
 [eeschema]
 version=1
-LibDir=../library
-[eeschema/libraries]
-LibName1=alps64-rescue
-LibName2=keyboard_parts
-LibName3=power
-LibName4=device
-LibName5=transistors
-LibName6=conn
-LibName7=linear
-LibName8=regul
-LibName9=74xx
-LibName10=cmos4000
-LibName11=adc-dac
-LibName12=memory
-LibName13=xilinx
-LibName14=microcontrollers
-LibName15=dsp
-LibName16=microchip
-LibName17=analog_switches
-LibName18=motorola
-LibName19=texas
-LibName20=intel
-LibName21=audio
-LibName22=interface
-LibName23=digital-audio
-LibName24=philips
-LibName25=display
-LibName26=cypress
-LibName27=siliconi
-LibName28=opto
-LibName29=atmel
-LibName30=contrib
-LibName31=valves
+LibDir=
