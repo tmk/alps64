@@ -1,13 +1,13 @@
 EESchema Schematic File Version 4
 LIBS:alps64-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "xKB64 keyboard PCB"
 Date "2016/04"
-Rev "D"
+Rev "E"
 Comp "TMK, Tokyo JAPAN"
 Comment1 ""
 Comment2 ""
@@ -322,21 +322,6 @@ Text Label 3950 2400 0    60   ~ 0
 row6
 Text Label 3950 1700 0    60   ~ 0
 row7
-Wire Wire Line
-	3250 2500 3250 2650
-$Comp
-L keyboard_parts:R R3
-U 1 1 53E2E032
-P 3250 2900
-F 0 "R3" V 3330 2900 50  0000 C CNN
-F 1 "1K" V 3250 2900 50  0000 C CNN
-F 2 "keyboard_parts:R_1608" H 3250 2900 60  0001 C CNN
-F 3 "" H 3250 2900 60  0000 C CNN
-	1    3250 2900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3250 3150 3250 3225
 $Comp
 L keyboard_parts:GND #PWR03
 U 1 1 53E2E39E
@@ -588,16 +573,6 @@ Wire Wire Line
 	2125 1300 2125 1475
 Wire Wire Line
 	2725 1400 2725 1475
-Wire Wire Line
-	3250 2500 4175 2500
-Wire Bus Line
-	6975 1275 6975 6350
-Wire Bus Line
-	8950 4625 8950 6350
-Wire Bus Line
-	10850 4625 10850 6350
-Wire Bus Line
-	3525 1275 3525 3150
 $Comp
 L keyboard_parts:XTAL_GND X1
 U 1 1 5B2DADAF
@@ -615,4 +590,64 @@ Wire Wire Line
 Connection ~ 2725 1475
 Wire Wire Line
 	2725 1475 2725 1700
+Wire Wire Line
+	3250 2500 3250 3225
+$Comp
+L keyboard_parts:+5V #PWR0101
+U 1 1 5D65890B
+P 1300 3025
+F 0 "#PWR0101" H 1300 3115 20  0001 C CNN
+F 1 "+5V" H 1300 3115 30  0000 C CNN
+F 2 "" H 1300 3025 60  0000 C CNN
+F 3 "" H 1300 3025 60  0000 C CNN
+	1    1300 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5D658CAF
+P 1300 3100
+F 0 "#FLG0101" H 1300 3175 50  0001 C CNN
+F 1 "PWR_FLAG" H 1300 3273 50  0000 C CNN
+F 2 "" H 1300 3100 50  0001 C CNN
+F 3 "~" H 1300 3100 50  0001 C CNN
+	1    1300 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5D6595ED
+P 1750 3025
+F 0 "#FLG0102" H 1750 3100 50  0001 C CNN
+F 1 "PWR_FLAG" H 1750 3198 50  0000 C CNN
+F 2 "" H 1750 3025 50  0001 C CNN
+F 3 "~" H 1750 3025 50  0001 C CNN
+	1    1750 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:GND #PWR0102
+U 1 1 5D65F7B7
+P 1750 3100
+F 0 "#PWR0102" H 1750 3100 30  0001 C CNN
+F 1 "GND" H 1750 3030 30  0001 C CNN
+F 2 "" H 1750 3100 60  0000 C CNN
+F 3 "" H 1750 3100 60  0000 C CNN
+	1    1750 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 3025 1750 3100
+Wire Wire Line
+	1300 3025 1300 3100
+Wire Wire Line
+	3250 2500 4175 2500
+Wire Bus Line
+	6975 1275 6975 6350
+Wire Bus Line
+	8950 4625 8950 6350
+Wire Bus Line
+	10850 4625 10850 6350
+Wire Bus Line
+	3525 1275 3525 3150
 $EndSCHEMATC

@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# keyboard_parts:+5V
+# keyboard_parts_+5V
 #
-DEF keyboard_parts:+5V #PWR 0 0 Y Y 1 F P
+DEF keyboard_parts_+5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -30 20 H I C CNN
-F1 "keyboard_parts:+5V" 0 110 30 H V C CNN
+F1 "keyboard_parts_+5V" 0 110 30 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -15,11 +15,11 @@ X +5V 1 0 0 0 U 10 20 0 0 W N
 ENDDRAW
 ENDDEF
 #
-# keyboard_parts:ATMEGA32U2
+# keyboard_parts_ATMEGA32U2
 #
-DEF keyboard_parts:ATMEGA32U2 U 0 40 Y Y 1 F N
+DEF keyboard_parts_ATMEGA32U2 U 0 40 Y Y 1 F N
 F0 "U" 0 -950 60 H V C CNN
-F1 "keyboard_parts:ATMEGA32U2" 0 950 60 H V C CNN
+F1 "keyboard_parts_ATMEGA32U2" 0 950 60 H V C CNN
 F2 "" 0 -300 60 H V C CNN
 F3 "" 0 -300 60 H V C CNN
 DRAW
@@ -59,11 +59,11 @@ X PD3/TXD1 9 -1050 -50 300 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# keyboard_parts:C
+# keyboard_parts_C
 #
-DEF keyboard_parts:C C 0 10 N Y 1 F N
+DEF keyboard_parts_C C 0 10 N Y 1 F N
 F0 "C" 50 100 50 H V L CNN
-F1 "keyboard_parts:C" 50 -100 50 H V L CNN
+F1 "keyboard_parts_C" 50 -100 50 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -79,11 +79,11 @@ X ~ 2 0 -200 170 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# keyboard_parts:D
+# keyboard_parts_D
 #
-DEF ~keyboard_parts:D D 0 40 Y Y 1 F N
+DEF ~keyboard_parts_D D 0 40 Y Y 1 F N
 F0 "D" -150 -50 60 V V C CNN
-F1 "keyboard_parts:D" 150 -50 60 V I C CNN
+F1 "keyboard_parts_D" 150 -50 60 V I C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -94,11 +94,11 @@ X ~ 2 0 50 50 D 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# keyboard_parts:GND
+# keyboard_parts_GND
 #
-DEF keyboard_parts:GND #PWR 0 0 Y Y 1 F P
+DEF keyboard_parts_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "keyboard_parts:GND" 0 -150 50 H V C CNN
+F1 "keyboard_parts_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -107,11 +107,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# keyboard_parts:KEYSW
+# keyboard_parts_KEYSW
 #
-DEF ~keyboard_parts:KEYSW K? 0 40 Y Y 1 F N
+DEF ~keyboard_parts_KEYSW K? 0 40 Y Y 1 F N
 F0 "K?" -50 0 60 H V C CNN
-F1 "keyboard_parts:KEYSW" 0 -100 60 H I C CNN
+F1 "keyboard_parts_KEYSW" 0 -100 60 H I C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -123,11 +123,11 @@ X ~ 2 -300 0 50 R 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# keyboard_parts:LED
+# keyboard_parts_LED
 #
-DEF keyboard_parts:LED LED 0 40 Y N 1 F N
+DEF keyboard_parts_LED LED 0 40 Y N 1 F N
 F0 "LED" 0 100 50 H V C CNN
-F1 "keyboard_parts:LED" 0 -100 50 H V C CNN
+F1 "keyboard_parts_LED" 0 -100 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -149,11 +149,11 @@ X A 2 200 0 150 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# keyboard_parts:R
+# keyboard_parts_R
 #
-DEF keyboard_parts:R R 0 0 N Y 1 F N
+DEF keyboard_parts_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "keyboard_parts:R" 0 0 50 V V C CNN
+F1 "keyboard_parts_R" 0 0 50 V V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -170,11 +170,11 @@ X ~ 2 0 -250 100 U 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# keyboard_parts:SW_PUSH
+# keyboard_parts_SW_PUSH
 #
-DEF keyboard_parts:SW_PUSH SW 0 40 N N 1 F N
+DEF keyboard_parts_SW_PUSH SW 0 40 N N 1 F N
 F0 "SW" 150 110 50 H V C CNN
-F1 "keyboard_parts:SW_PUSH" 0 -80 50 H V C CNN
+F1 "keyboard_parts_SW_PUSH" 0 -80 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -185,29 +185,29 @@ X 2 2 300 0 200 L 60 60 0 1 P I
 ENDDRAW
 ENDDEF
 #
-# keyboard_parts:USB_mini_micro_B
+# keyboard_parts_USB_mini_micro_B
 #
-DEF ~keyboard_parts:USB_mini_micro_B J 0 40 Y Y 1 F N
+DEF ~keyboard_parts_USB_mini_micro_B J 0 40 Y Y 1 F N
 F0 "J" -400 -50 60 H V C CNN
-F1 "keyboard_parts:USB_mini_micro_B" -150 250 60 H I C CNN
+F1 "keyboard_parts_USB_mini_micro_B" -150 250 60 H I C CNN
 F2 "" -50 0 60 H V C CNN
 F3 "" -50 0 60 H V C CNN
 DRAW
 S -350 200 -50 -400 0 1 0 N
-X VUSB 1 150 150 200 L 50 50 1 1 w
+X VUSB 1 150 150 200 L 50 50 1 1 W
 X D- 2 150 50 200 L 50 50 1 1 B
 X D+ 3 150 -50 200 L 50 50 1 1 B
 X ID 4 150 -150 200 L 50 50 1 1 I
-X GND 5 150 -250 200 L 50 50 1 1 w
+X GND 5 150 -250 200 L 50 50 1 1 W
 X SHIELD 6 150 -350 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# keyboard_parts:XTAL_GND
+# keyboard_parts_XTAL_GND
 #
-DEF keyboard_parts:XTAL_GND X 0 40 N N 1 F N
+DEF keyboard_parts_XTAL_GND X 0 40 N N 1 F N
 F0 "X" 0 150 60 H V C CNN
-F1 "keyboard_parts:XTAL_GND" 0 -150 60 H V C CNN
+F1 "keyboard_parts_XTAL_GND" 0 -150 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -217,6 +217,19 @@ P 5 0 1 12 -50 50 50 50 50 -50 -50 -50 -50 50 f
 X 1 1 -300 0 200 R 40 40 1 1 P
 X 2 2 300 0 200 L 40 40 1 1 P
 X ~ 3 0 -200 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_PWR_FLAG
+#
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
