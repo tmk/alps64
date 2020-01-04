@@ -1,4 +1,4 @@
-update=Fri 06 Sep 2019 10:37:56 JST
+update=Sun 05 Jan 2020 00:42:05 JST
 version=1
 last_client=kicad
 [cvpcb]
@@ -14,7 +14,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=/home/noname/.config/kicad/pagelayout_logo_without_ruler.kicad_wks
-LastNetListRead=
+LastNetListRead=alps64.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -61,7 +61,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.075
 SolderMaskMinWidth=0.15
 SolderPasteClearance=-0.08
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/1]
 Name=20mil
