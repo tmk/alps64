@@ -223,8 +223,6 @@ Wire Wire Line
 Wire Wire Line
 	4175 2800 3625 2800
 Wire Wire Line
-	6325 1800 9350 1800
-Wire Wire Line
 	6325 2100 7375 2100
 Wire Wire Line
 	6325 2400 6875 2400
@@ -427,17 +425,6 @@ Wire Wire Line
 	6425 1500 6325 1500
 Wire Wire Line
 	6325 1600 6425 1600
-$Comp
-L keyboard_parts:USB_mini_micro_B J1
-U 1 1 53E22741
-P 10325 1550
-F 0 "J1" H 9925 1500 60  0000 C CNN
-F 1 "USB_mini_micro_B" H 10175 1800 60  0001 C CNN
-F 2 "keyboard_parts:USB_miniB_hirose_th_reflow" H 10275 1550 60  0001 C CNN
-F 3 "" H 10275 1550 60  0000 C CNN
-	1    10325 1550
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	6925 1500 10175 1500
 Wire Wire Line
@@ -446,13 +433,6 @@ Wire Wire Line
 	10175 1400 9750 1400
 Wire Wire Line
 	7375 2850 7800 2850
-Wire Wire Line
-	10075 2850 10075 1900
-Wire Wire Line
-	10075 1800 10175 1800
-Wire Wire Line
-	10175 1900 10075 1900
-Connection ~ 10075 1900
 $Comp
 L keyboard_parts:+5V #PWR05
 U 1 1 53E24838
@@ -464,7 +444,6 @@ F 3 "" H 7800 1225 60  0000 C CNN
 	1    7800 1225
 	1    0    0    -1  
 $EndComp
-NoConn ~ 10175 1700
 Wire Wire Line
 	9750 1275 9750 1400
 Connection ~ 9750 1400
@@ -478,7 +457,6 @@ Wire Wire Line
 Connection ~ 9350 2850
 Wire Wire Line
 	10075 1700 6325 1700
-Connection ~ 10075 1800
 Wire Wire Line
 	6325 1300 7800 1300
 Wire Wire Line
@@ -498,7 +476,7 @@ F 3 "" H 9750 1275 60  0000 C CNN
 	1    9750 1275
 	1    0    0    -1  
 $EndComp
-Text Label 10000 1500 0    60   ~ 0
+Text Label 10175 1500 2    60   ~ 0
 D-
 Text Label 10000 1600 0    60   ~ 0
 D+
@@ -526,7 +504,7 @@ F 1 "LED" H 8375 1900 50  0000 C CNN
 F 2 "keyboard_parts:LED_2012_HSOL" H 8375 2000 60  0001 C CNN
 F 3 "" H 8375 2000 60  0000 C CNN
 	1    8375 2000
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	8675 2825 8675 2850
@@ -550,8 +528,6 @@ Wire Wire Line
 Wire Wire Line
 	2725 2175 3100 2175
 Wire Wire Line
-	10075 1900 10075 1800
-Wire Wire Line
 	9750 1400 6325 1400
 Wire Wire Line
 	9750 1400 9750 2350
@@ -561,8 +537,6 @@ Wire Wire Line
 	9750 2850 9750 3000
 Wire Wire Line
 	9350 2850 9750 2850
-Wire Wire Line
-	10075 1800 10075 1700
 Wire Wire Line
 	7800 2850 8675 2850
 Wire Wire Line
@@ -579,7 +553,7 @@ U 1 1 5B2DADAF
 P 2425 1475
 F 0 "X1" H 2425 1600 60  0000 C CNN
 F 1 "XTAL_GND" H 2425 1661 60  0001 C CNN
-F 2 "" H 2425 1475 60  0000 C CNN
+F 2 "" H 2425 1475 60  0001 C CNN
 F 3 "" H 2425 1475 60  0000 C CNN
 	1    2425 1475
 	1    0    0    -1  
@@ -592,28 +566,6 @@ Wire Wire Line
 	2725 1475 2725 1700
 Wire Wire Line
 	3250 2500 3250 3225
-$Comp
-L keyboard_parts:+5V #PWR0101
-U 1 1 5D65890B
-P 1300 3025
-F 0 "#PWR0101" H 1300 3115 20  0001 C CNN
-F 1 "+5V" H 1300 3115 30  0000 C CNN
-F 2 "" H 1300 3025 60  0000 C CNN
-F 3 "" H 1300 3025 60  0000 C CNN
-	1    1300 3025
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG0101
-U 1 1 5D658CAF
-P 1300 3100
-F 0 "#FLG0101" H 1300 3175 50  0001 C CNN
-F 1 "PWR_FLAG" H 1300 3273 50  0000 C CNN
-F 2 "" H 1300 3100 50  0001 C CNN
-F 3 "~" H 1300 3100 50  0001 C CNN
-	1    1300 3100
-	-1   0    0    1   
-$EndComp
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5D6595ED
@@ -638,16 +590,133 @@ F 3 "" H 1750 3100 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	1750 3025 1750 3100
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J1
+U 1 1 5E10E27C
+P 2100 5375
+F 0 "J1" H 2207 6242 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 2207 6151 50  0000 C CNN
+F 2 "keyboard_parts:USB_C_Receptacle_USB2.0_LCSC_C393939" H 2250 5375 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 2250 5375 50  0001 C CNN
+	1    2100 5375
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	1300 3025 1300 3100
+	2700 5375 2850 5375
+Wire Wire Line
+	2700 5475 2850 5475
+Wire Wire Line
+	2700 5575 2850 5575
+Wire Wire Line
+	2850 5575 2850 5475
+Connection ~ 2850 5475
+Wire Wire Line
+	2850 5475 3150 5475
+Wire Wire Line
+	2850 5375 2850 5275
+Wire Wire Line
+	2850 5275 2700 5275
+Connection ~ 2850 5375
+Wire Wire Line
+	2850 5375 3150 5375
+Wire Wire Line
+	2700 4975 3700 4975
+Wire Wire Line
+	3700 4975 3700 5125
+Wire Wire Line
+	2700 5075 3475 5075
+$Comp
+L Device:R R3
+U 1 1 5E13012E
+P 3475 5275
+F 0 "R3" H 3545 5321 50  0000 L CNN
+F 1 "5.1K" H 3545 5230 50  0000 L CNN
+F 2 "keyboard_parts:R_1608" V 3405 5275 50  0001 C CNN
+F 3 "~" H 3475 5275 50  0001 C CNN
+	1    3475 5275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5E130624
+P 3700 5275
+F 0 "R5" H 3770 5321 50  0000 L CNN
+F 1 "5.1K" H 3770 5230 50  0000 L CNN
+F 2 "keyboard_parts:R_1608" V 3630 5275 50  0001 C CNN
+F 3 "~" H 3700 5275 50  0001 C CNN
+	1    3700 5275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3475 5125 3475 5075
+$Comp
+L keyboard_parts:GND #PWR0103
+U 1 1 5E134BE6
+P 3600 5575
+F 0 "#PWR0103" H 3600 5575 30  0001 C CNN
+F 1 "GND" H 3600 5505 30  0001 C CNN
+F 2 "" H 3600 5575 60  0000 C CNN
+F 3 "" H 3600 5575 60  0000 C CNN
+	1    3600 5575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 5425 3700 5525
+Wire Wire Line
+	3700 5525 3600 5525
+Wire Wire Line
+	3600 5525 3475 5525
+Wire Wire Line
+	3475 5525 3475 5425
+Connection ~ 3600 5525
+Wire Wire Line
+	3600 5575 3600 5525
+NoConn ~ 2700 5875
+NoConn ~ 2700 5975
+$Comp
+L keyboard_parts:GND #PWR0104
+U 1 1 5E1494D2
+P 1950 6425
+F 0 "#PWR0104" H 1950 6425 30  0001 C CNN
+F 1 "GND" H 1950 6355 30  0001 C CNN
+F 2 "" H 1950 6425 60  0000 C CNN
+F 3 "" H 1950 6425 60  0000 C CNN
+	1    1950 6425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 6275 2100 6375
+Wire Wire Line
+	2100 6375 1950 6375
+Wire Wire Line
+	1800 6375 1800 6275
+Wire Wire Line
+	1950 6425 1950 6375
+Connection ~ 1950 6375
+Wire Wire Line
+	1950 6375 1800 6375
+Wire Wire Line
+	2700 4775 3125 4775
+Wire Wire Line
+	10075 1700 10075 2850
+Text Label 10175 1400 2    50   ~ 0
+VUSB
+Text Label 3125 4775 2    50   ~ 0
+VUSB
+Text Label 3150 5375 2    60   ~ 0
+D-
+Text Label 3150 5475 2    60   ~ 0
+D+
+Wire Wire Line
+	6325 1800 9350 1800
 Wire Wire Line
 	3250 2500 4175 2500
 Wire Bus Line
 	6975 1275 6975 6350
 Wire Bus Line
-	8950 4625 8950 6350
-Wire Bus Line
 	10850 4625 10850 6350
+Wire Bus Line
+	8950 4625 8950 6350
 Wire Bus Line
 	3525 1275 3525 3150
 $EndSCHEMATC
