@@ -13,6 +13,9 @@ Rev.D   2016/04     Fix Xtal foot print and value of R and C
 Rev.E   2016/08     Retouch USB connector footprint and silks
 Rev.F   2017/08     Add breakout for unused pins(PC4, PC6, PC7)
 
+Rev.Kc' 2020/06     Add support layouts for AppleIIgs, M0116 and M0118(canceled)
+                    Some of mounting screw holes are not usable.
+
 
 Ideas
 -----

@@ -76,20 +76,6 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# keyboard_parts_+5V
-#
-DEF keyboard_parts_+5V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -30 20 H I C CNN
-F1 "keyboard_parts_+5V" 0 110 30 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-C 0 60 20 0 1 0 N
-P 3 0 1 0 0 0 0 40 0 40 N
-X +5V 1 0 0 0 U 10 20 0 0 W N
-ENDDRAW
-ENDDEF
-#
 # keyboard_parts_ATMEGA32U2
 #
 DEF keyboard_parts_ATMEGA32U2 U 0 40 Y Y 1 F N
@@ -166,20 +152,6 @@ P 2 0 1 0 -100 0 100 0 N
 P 4 0 1 0 0 0 -100 -100 100 -100 0 0 F
 X ~ 1 0 50 50 D 60 60 1 1 P
 X ~ 2 0 -150 50 U 60 60 1 1 P
-ENDDRAW
-ENDDEF
-#
-# keyboard_parts_GND
-#
-DEF keyboard_parts_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 50 20 H I C CNN
-F1 "keyboard_parts_GND" 0 -100 30 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-P 4 0 1 0 0 -65 25 -40 -25 -40 0 -65 N
-P 3 1 1 0 0 0 0 -40 0 -40 N
-X +5V 1 0 0 0 U 10 20 0 0 W N
 ENDDRAW
 ENDDEF
 #
@@ -275,6 +247,34 @@ P 5 0 1 12 -50 50 50 50 50 -50 -50 -50 -50 50 f
 X 1 1 -300 0 200 R 40 40 1 1 P
 X 2 2 300 0 200 L 40 40 1 1 P
 X ~ 3 0 -200 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_+5V
+#
+DEF power_+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
