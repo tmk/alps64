@@ -1,6 +1,8 @@
 ALPS 60% keyboard PCB
 =====================
-Primary goal is to support 60% cut AEK(Apple Extended Keyboard) layout and fits into Poker X cmpatible cases.
+This supports 60% AEK and other layouts and fits into GH60/Poker X compatible cases. See this page for other infos.
+
+https://geekhack.org/index.php?topic=91843.0
 
 
 Revisions
@@ -12,20 +14,8 @@ Rev.C   2015/10     Silk fix: position of K70, K40 and value of resistor:10K -> 
 Rev.D   2016/04     Fix Xtal foot print and value of R and C
 Rev.E   2016/08     Retouch USB connector footprint and silks
 Rev.F   2017/08     Add breakout for unused pins(PC4, PC6, PC7)
-
-
-Ideas
------
-### LED ###
-Backlight won't support. Indicators may be needed for debug.
-LED footprint for ALPS Green?
-
-### PCB mount plate: ###
-1.6mm PCB will be OK for switch plate.
-SMD LED? WS2812? Matias style underside LED?
-
-### TrackPoint ###
-ATMega32u2 has no spare pins for TrackPoint three buttons and signals.
+Rev.J   2019/09     Update footprints and remove R for HWB
+Rev.K   2022/11     Replace Mini-B with USB-C and remove KBP V60 support
 
 
 TODO
